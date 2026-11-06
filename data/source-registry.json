@@ -1,0 +1,16 @@
+[
+ {"id":"ugc-public","title":"UGC public university directory","authority":"UGC","url":"https://www.ugc.gov.bd/universities/public-universities","checked_at":null,"snapshot_date":"2026-11-06","verification":"not_verified","note":"Names transcribed from the supplied blueprint. Live inventory revalidation is outstanding."},
+ {"id":"ugc-private","title":"UGC private university directory","authority":"UGC","url":"https://www.ugc.gov.bd/universities/private-universities","checked_at":null,"snapshot_date":"2026-11-06","verification":"not_verified"},
+ {"id":"ugc-international","title":"UGC international university directory","authority":"UGC","url":"https://ugc.gov.bd/universities/international-universities","checked_at":null,"snapshot_date":"2026-11-06","verification":"not_verified"},
+ {"id":"ugc-cbhe","title":"UGC cross-border higher education directory","authority":"UGC","url":"https://ugc.gov.bd/universities/cbhe","checked_at":null,"snapshot_date":"2026-11-06","verification":"not_verified"},
+ {"id":"ugc-notices","title":"UGC private university regulatory notices","authority":"UGC","url":"https://ugc.gov.bd/service-details/forms-private-uni","verification":"not_verified"},
+ {"id":"bmdc","title":"BMDC medical and dental directory","authority":"BMDC","url":"https://www.bmdc.org.bd/about-college-n","checked_at":"2026-11-06","verification":"verified","note":"Source page accessed during implementation; individual recognition/intake status not adjudicated. Recognition can be withdrawn."},
+ {"id":"dgme","title":"Directorate General of Medical Education","authority":"DGME","url":"https://dgme.gov.bd/","verification":"not_verified","note":"Source was unavailable during implementation. No current admission rules imported."},
+ {"id":"butex","title":"BUTEX affiliated colleges and institutes","authority":"BUTEX","url":"https://newsite.butex.edu.bd/all-affiliate-institutes","checked_at":"2026-11-06","verification":"verified","note":"Source page accessed; affiliation listings are not current intake authorization."},
+ {"id":"dot","title":"Directorate of Textiles","authority":"DoT","url":"https://dot.gov.bd/","verification":"not_verified"},
+ {"id":"qs","title":"QS World University Rankings","authority":"QS","url":"https://www.topuniversities.com/qs-world-university-rankings","verification":"not_verified","note":"Publisher records require edition and reuse-rights review; blueprint rank examples are not published automatically."},
+ {"id":"the","title":"THE World University Rankings","authority":"THE","url":"https://www.timeshighereducation.com/world-university-rankings","verification":"not_verified"},
+ {"id":"ugc-aid","title":"UGC merit scholarship notices","authority":"UGC","url":"https://ugc.gov.bd/service-details/merit-scholarship","verification":"not_verified"},
+ {"id":"brac-admission","title":"BRAC University undergraduate admissions","authority":"University","url":"https://www.bracu.ac.bd/ug-domestic-applicant","verification":"not_verified"},
+ {"id":"brac-fees","title":"BRAC University tuition and fees","authority":"University","url":"https://www.bracu.ac.bd/admissions/tuition-and-fees","verification":"not_verified"}
+]
