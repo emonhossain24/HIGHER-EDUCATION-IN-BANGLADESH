@@ -1,0 +1,479 @@
+[
+  {
+    "id": "ulab-bba",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "Bachelor of Business Administration",
+      "level": "Bachelor",
+      "credits": 130,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-bba-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB BBA — published fee page",
+      "programme_id": "ulab-bba",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 851500,
+      "credits": 130,
+      "per_credit": 6000,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-msj",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "BSS in Media Studies and Journalism",
+      "level": "Bachelor",
+      "credits": 130,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-msj-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB MSJ — published fee page",
+      "programme_id": "ulab-msj",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 903500,
+      "credits": 130,
+      "per_credit": 6400,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-english",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "BA in English and Humanities",
+      "level": "Bachelor",
+      "credits": 130,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-english-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB ENGLISH — published fee page",
+      "programme_id": "ulab-english",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 676000,
+      "credits": 130,
+      "per_credit": 4650,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-bangla",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "BA in Bangla Language and Literature",
+      "level": "Bachelor",
+      "credits": 130,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-bangla-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB BANGLA — published fee page",
+      "programme_id": "ulab-bangla",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 305500,
+      "credits": 130,
+      "per_credit": 1800,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-cse",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "BSc in Computer Science and Engineering",
+      "level": "Bachelor",
+      "credits": 140,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-cse-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB CSE — published fee page",
+      "programme_id": "ulab-cse",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 771500,
+      "credits": 140,
+      "per_credit": 5000,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-eee",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "BSc in Electrical and Electronic Engineering",
+      "level": "Bachelor",
+      "credits": 140,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-eee-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB EEE — published fee page",
+      "programme_id": "ulab-eee",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 771500,
+      "credits": 140,
+      "per_credit": 5000,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-ess",
+    "kind": "programme",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "BSc in Environmental Science and Sustainability",
+      "level": "Bachelor",
+      "credits": 130,
+      "duration_months": null,
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "programme_approval": "not_verified",
+      "curriculum_version": "not stated by fee page",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-ess-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB ESS — published fee page",
+      "programme_id": "ulab-ess",
+      "effective_session": "Intake not specified on published fee page",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "basis": "published_total",
+      "published_total": 786500,
+      "credits": 130,
+      "per_credit": 5500,
+      "waiver_cap": 40,
+      "terms": null,
+      "per_term": null,
+      "one_time": null,
+      "other_required": null,
+      "excludes": "Remedial courses, living expenses and any future revisions. Published page incorporates specified activity charges.",
+      "fee_note": "Published total is shown directly; missing component schedules are not inferred. For EEE/ESS the page separately advertises a special waiver; confirm eligibility and stacking.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-cse",
+    "kind": "programme",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "BSc in Computer Science and Engineering",
+      "level": "Bachelor",
+      "source_url": "https://www.bracu.ac.bd/ug-domestic-applicant",
+      "credits": null,
+      "duration_months": null,
+      "programme_approval": "not_verified",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-cse-spring-2027-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "BRAC CSE — Spring 2027 fees",
+      "programme_id": "brac-cse",
+      "effective_session": "Spring 2027",
+      "source_url": "https://www.bracu.ac.bd/admissions/tuition-and-fees",
+      "credits": null,
+      "per_credit": 8250,
+      "terms": null,
+      "per_term": 14175,
+      "one_time": 36400,
+      "other_required": null,
+      "waiver_cap": 0,
+      "residential_semester": 90000,
+      "application_fee": 1750,
+      "fee_note": "One-time subtotal: admission 33,900 + library 2,500. Residential semester and application charges are separate. Credits/charged terms and other required components must be confirmed; no full-degree total inferred.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-cs",
+    "kind": "programme",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "BSc in Computer Science",
+      "level": "Bachelor",
+      "source_url": "https://www.bracu.ac.bd/ug-domestic-applicant",
+      "credits": null,
+      "duration_months": null,
+      "programme_approval": "not_verified",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-cs-spring-2027-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "BRAC CS — Spring 2027 fees",
+      "programme_id": "brac-cs",
+      "effective_session": "Spring 2027",
+      "source_url": "https://www.bracu.ac.bd/admissions/tuition-and-fees",
+      "credits": null,
+      "per_credit": 8250,
+      "terms": null,
+      "per_term": 10520,
+      "one_time": 36400,
+      "other_required": null,
+      "waiver_cap": 0,
+      "residential_semester": 90000,
+      "application_fee": 1750,
+      "fee_note": "One-time subtotal: admission 33,900 + library 2,500. Residential semester and application charges are separate. Credits/charged terms and other required components must be confirmed; no full-degree total inferred.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-bba",
+    "kind": "programme",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "Bachelor of Business Administration",
+      "level": "Bachelor",
+      "source_url": "https://www.bracu.ac.bd/ug-domestic-applicant",
+      "credits": null,
+      "duration_months": null,
+      "programme_approval": "not_verified",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-bba-spring-2027-fees",
+    "kind": "fee",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "BRAC BBA — Spring 2027 fees",
+      "programme_id": "brac-bba",
+      "effective_session": "Spring 2027",
+      "source_url": "https://www.bracu.ac.bd/admissions/tuition-and-fees",
+      "credits": null,
+      "per_credit": 8250,
+      "terms": null,
+      "per_term": 10520,
+      "one_time": 36400,
+      "other_required": null,
+      "waiver_cap": 0,
+      "residential_semester": 90000,
+      "application_fee": 1750,
+      "fee_note": "One-time subtotal: admission 33,900 + library 2,500. Residential semester and application charges are separate. Credits/charged terms and other required components must be confirmed; no full-degree total inferred.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "brac-spring-2027",
+    "kind": "admission",
+    "institution_id": "ugc-private-016",
+    "data": {
+      "title": "BRAC University undergraduate — Spring 2027",
+      "session": "Spring 2027",
+      "effective_session": "Spring 2027",
+      "source_url": "https://www.bracu.ac.bd/ug-domestic-applicant",
+      "application_url": "https://connect.bracu.ac.bd/",
+      "deadline_date": "2026-11-22",
+      "deadline_time": "not stated",
+      "exam_at": "2026-11-27T09:30:00+06:00",
+      "opens_at": null,
+      "closes_at": null,
+      "rules": [],
+      "eligibility_note": "Programme-specific requirements and equivalence rules must be checked in the official notice. No generic all-programme GPA rule is applied.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-spring-2027",
+    "kind": "admission",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB undergraduate — Spring 2027 announcement",
+      "session": "Spring 2027",
+      "effective_session": "Spring 2027",
+      "source_url": "https://admissions.ulab.edu.bd/",
+      "application_url": "https://oam.ulab.edu.bd/",
+      "announcement_state": "open as stated on source page",
+      "deadline_date": null,
+      "exam_date": "2026-12-03",
+      "exam_time": "not stated",
+      "opens_at": null,
+      "closes_at": null,
+      "rules": [],
+      "eligibility_note": "Current source announces admission, but does not state an exact closing time in the retrieved text. Confirm with Admissions.",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  },
+  {
+    "id": "ulab-waiver-summary",
+    "kind": "scholarship",
+    "institution_id": "ugc-private-047",
+    "data": {
+      "title": "ULAB undergraduate tuition-waiver pathways",
+      "effective_session": "Current published policy checked 2026-11-06; confirm intake",
+      "source_url": "https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees",
+      "benefit": "Tuition-only waivers; rate depends on published academic/relationship criteria.",
+      "criteria": "The source lists merit and relationship categories. Refer to the original table for exact criteria and excluded fourth-subject treatment.",
+      "renewal": "Confirm continued eligibility and renewal performance requirements with ULAB.",
+      "stacking": "Ordinary combined waiver capped at 40%; separately qualifying 100% cases have different conditions.",
+      "application_url": "https://admissions.ulab.edu.bd/undergraduate-programs/scholarships-financial-aid",
+      "checked_at": "2026-11-06",
+      "verification": "verified",
+      "provenance": "Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee."
+    }
+  }
+]

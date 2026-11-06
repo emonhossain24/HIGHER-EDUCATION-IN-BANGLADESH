@@ -1,4 +1,6 @@
 import {randomUUID} from 'node:crypto';
+import {validateRelations,relationsApi} from './relations.mjs';
+import {extensions,rebuildSearch,enqueueAlerts} from './extensions.mjs';
 import {writeFileSync,mkdirSync,appendFileSync,unlinkSync,existsSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {execFileSync} from 'node:child_process';
@@ -31,6 +33,8 @@ function verifyToken(db,token,purpose){const found=one(db,'SELECT * FROM tokens 
 function auditRevision(db,user,type,id,version,before,after,reason){revision(db,type,id,version,before,user.id,reason);audit(db,user.id,'update',type,id,before,after,reason);}
 export async function api(ctx){
   const {req,res,db,url}=ctx,method=req.method,p=url.pathname,b=ctx.body||{},parts=p.split('/').filter(Boolean);
+  const relation=await relationsApi(ctx);if(relation!==undefined)return relation;
+  const extension=await extensions(ctx);if(extension!==undefined)return extension;
   const ip=req.socket.remoteAddress||'unknown';rateLimit(db,`api:${ip}`,400,60000);
   if(p==='/api/health')return {ok:true,database:one(db,'PRAGMA quick_check').quick_check==='ok'};
   if(p==='/api/session'&&method==='GET')return {user:publicUser(ctx.session),csrf:ctx.session?.csrf,mail_ready:!!(ctx.config.mailUrl||ctx.config.devMail||ctx.config.sendMail)};
@@ -88,7 +92,8 @@ export async function api(ctx){
   if(p==='/api/posts'&&method==='GET'){
     const args=[],filters=["p.state='published'","u.deleted_at IS NULL"];if(url.searchParams.get('institution_id')){filters.push('p.institution_id=?');args.push(url.searchParams.get('institution_id'));}if(url.searchParams.get('q')){filters.push('(p.title LIKE ? OR p.body LIKE ?)');args.push('%'+clean(url.searchParams.get('q'),100)+'%','%'+clean(url.searchParams.get('q'),100)+'%');}if(url.searchParams.get('id')){filters.push('p.id=?');args.push(url.searchParams.get('id'));}
     const user=ctx.session?.id||'';filters.push('NOT EXISTS(SELECT 1 FROM block WHERE (user_id=? AND blocked_id=p.author_id) OR (blocked_id=? AND user_id=p.author_id))');args.push(user,user);
-    const posts=all(db,`SELECT p.*,u.name,u.handle,(SELECT count(*) FROM reaction r WHERE target_type='post' AND target_id=p.id) likes,(SELECT count(*) FROM comment c WHERE post_id=p.id AND c.state='published') comments,(SELECT count(*) FROM reaction r WHERE target_type='post' AND target_id=p.id AND user_id=?) liked FROM post p JOIN users u ON u.id=p.author_id WHERE ${filters.join(' AND ')} ORDER BY p.created_at DESC LIMIT 100`,user,...args);
+    const sort=url.searchParams.get('sort');if(sort==='unanswered')filters.push("p.topic='Question' AND NOT EXISTS(SELECT 1 FROM accepted_answer a WHERE a.post_id=p.id)");if(url.searchParams.get('topic')){filters.push('p.topic=?');args.push(clean(url.searchParams.get('topic'),40));}if(sort==='following'){assert(ctx.session,'Sign in to view followed feeds.',401);filters.push(`EXISTS(SELECT 1 FROM follow f WHERE f.user_id=? AND ((f.target_type='institution' AND f.target_id=p.institution_id) OR (f.target_type='topic' AND f.target_id=p.topic) OR (f.target_type='member' AND f.target_id=p.author_id)))`);args.push(user);}
+    const posts=all(db,`SELECT p.*,u.name,u.handle,(SELECT count(*) FROM representative_grant g WHERE g.user_id=p.author_id AND g.institution_id=p.institution_id AND g.revoked_at IS NULL AND g.expires_at>strftime('%Y-%m-%dT%H:%M:%fZ','now')) institution_representative,(SELECT comment_id FROM accepted_answer WHERE post_id=p.id) accepted_id,(SELECT count(*) FROM reaction r WHERE target_type='post' AND target_id=p.id) likes,(SELECT count(*) FROM comment c WHERE post_id=p.id AND c.state='published') comments,(SELECT count(*) FROM reaction r WHERE target_type='post' AND target_id=p.id AND user_id=?) liked FROM post p JOIN users u ON u.id=p.author_id WHERE ${filters.join(' AND ')} ORDER BY ${sort==='relevant'?'likes DESC,':''} p.created_at DESC LIMIT 100`,user,...args);
     return {items:posts};
   }
   if(p==='/api/posts'&&method==='POST'){
@@ -168,6 +173,7 @@ export async function api(ctx){
     let ext=data.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))?'png':data[0]===255&&data[1]===216&&data[2]===255?'jpg':data.subarray(0,4).toString()==='RIFF'&&data.subarray(8,12).toString()==='WEBP'?'webp':null;
     if(data.subarray(0,5).toString()==='%PDF-'){assert(ctx.config.clamscan,'PDF uploads require a configured malware scanner. Link official documents instead.',503);ext='pdf';}
     assert(ext,'Only PNG, JPEG, WebP and scanned PDF files are accepted.');const id=randomUUID(),path=resolve(ctx.config.dataDir,'media',id+'.'+ext);mkdirSync(resolve(ctx.config.dataDir,'media'),{recursive:true});writeFileSync(path,data,{mode:0o600});
+    if(ext!=='pdf')try{execFileSync(ctx.config.imageConvert||'magick',['-limit','memory','64MiB','-limit','map','128MiB','-limit','time','15',path+'[0]','-strip','-resize','2400x2400>',path],{timeout:20000,stdio:'ignore'});}catch{unlinkSync(path);throw new HttpError(400,'The image could not be decoded safely. Ask the operator to configure ImageMagick.');}
     if(ext==='pdf')try{execFileSync(ctx.config.clamscan,['--no-summary',path],{timeout:30000,stdio:'ignore'});}catch{unlinkSync(path);throw new HttpError(400,'The document could not pass malware scanning.');}
     const url='/media/'+id+'.'+ext;run(db,'INSERT INTO media VALUES(?,?,?,?,?,?,NULL)',id,u.id,url,alt,license,now());return {id,url,alt};
   }
@@ -182,6 +188,7 @@ async function admin(ctx){
   if(p==='/api/admin/records'&&method==='POST'){
     requireRole(ctx,editRoles);const id=b.id||randomUUID(),kind=b.kind,reason=clean(b.reason,1000);assert(reason.length>=5,'Explain the change in at least five characters.');
     const data=structuredClone(b.data);if(kind==='institution'){validateInstitution(data);data.title=data.name_en;}else validateRecord(kind,data);
+    validateRelations(db,kind,data,b.institution_id);
     const previous=one(db,'SELECT * FROM record WHERE id=?',id);assert(!previous||previous.kind===kind,'Content type cannot be changed.');assert(!previous||b.version===previous.version,'This content changed elsewhere. Reload before saving.',409);if(b.institution_id)getInstitution(db,b.institution_id);
     return transaction(db,()=>{
       if(previous){auditRevision(db,u,'record',id,previous.version,parsed(previous),data,reason);run(db,"UPDATE record SET data=?,status='draft',version=version+1,updated_by=?,approved_by=NULL,updated_at=? WHERE id=?",json(data),u.id,now(),id);}
@@ -195,10 +202,12 @@ async function admin(ctx){
     const reason=clean(b.reason,1000);assert(reason.length>=5,'Explain the action in at least five characters.');assert(b.version===r.version,'This content changed elsewhere. Reload first.',409);
     if(parts[4]==='publish'&&method==='POST'){
       requireRole(ctx,reviewRoles);const d=JSON.parse(r.data);assert(!r.deleted_at,'Restore the record first.');
-      if(riskKinds.has(r.kind)||r.kind==='institution')assert(u.id!==r.updated_by&&u.id!==r.created_by,'A different authorized reviewer must publish high-impact changes.',403);
+      if(riskKinds.has(r.kind)||r.kind==='institution'||r.kind==='representative')assert(u.id!==r.updated_by&&u.id!==r.created_by,'A different authorized reviewer must publish high-impact changes.',403);
       if(r.kind==='settings'||r.kind==='navigation')requireRole(ctx,['admin','owner']);
       if(r.kind==='institution'){validateInstitution(d);if(d.regulatory_status==='verified'||d.admission_permission==='verified')assert(d.checked_at&&d.source_url,'Verified status needs current source evidence.');}
       else validateRecord(r.kind,d,true);
+      validateRelations(db,r.kind,d,r.institution_id);
+      if(r.kind==='representative')assert(one(db,'SELECT 1 FROM representative_grant WHERE id=? AND user_id=? AND institution_id=? AND revoked_at IS NULL AND expires_at>?',d.grant_id,r.created_by,r.institution_id,now()),'Representative authority is absent, expired or revoked.');
       if(r.kind==='ranking'&&r.institution_id){const inst=publicInstitution(getInstitution(db,r.institution_id));assert(inst.kind==='university','Colleges cannot inherit university world rankings.');}
       if(r.kind==='admission'&&r.institution_id){const inst=publicInstitution(getInstitution(db,r.institution_id));if(inst.notice_flag)assert(d.notice_review_url&&d.notice_reviewed_at,'Review the UGC notice before publishing an admission window.');}
       if(d.superseded_by)assert(one(db,'SELECT 1 FROM record WHERE id=? AND kind=? AND published IS NOT NULL',d.superseded_by,r.kind),'A superseding record must already be published.');
@@ -209,7 +218,8 @@ async function admin(ctx){
           if(previous&&previous.slug!==d.slug)run(db,'INSERT OR REPLACE INTO alias VALUES(?,?)',previous.slug,d.id);
           run(db,'INSERT INTO institution(id,slug,category,kind,data) VALUES(?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET slug=excluded.slug,category=excluded.category,kind=excluded.kind,data=excluded.data,version=institution.version+1',d.id,d.slug,d.category||null,d.kind,json(d));
         }
-        run(db,"UPDATE record SET published=data,status='published',approved_by=?,version=version+1,updated_at=? WHERE id=?",u.id,now(),r.id);return {ok:true};
+        if(r.kind==='representative'&&(d.summary_en||d.summary_bn)){const inst=one(db,'SELECT * FROM institution WHERE id=?',r.institution_id),updated=JSON.parse(inst.data);for(const key of ['summary_en','summary_bn'])if(d[key])updated[key]=d[key];run(db,'UPDATE institution SET data=?,version=version+1 WHERE id=?',JSON.stringify(updated),inst.id);}
+        run(db,"UPDATE record SET published=data,status='published',approved_by=?,version=version+1,updated_at=? WHERE id=?",u.id,now(),r.id);enqueueAlerts(db,r,d);return {ok:true};
       });
     }
     if(parts[4]==='rollback'&&method==='POST'){
@@ -228,7 +238,7 @@ async function admin(ctx){
     return transaction(db,()=>{for(const r of b.records){const id=r.id||randomUUID(),d=r.data;if(r.kind==='institution')d.title=d.name_en;run(db,'INSERT INTO record(id,kind,institution_id,data,created_by,updated_by,updated_at) VALUES(?,?,?,?,?,?,?)',id,r.kind,r.institution_id||null,json(d),u.id,u.id,now());audit(db,u.id,'import','record',id,null,d,reason);}return {imported:b.records.length,state:'draft'};});
   }
   if(p==='/api/admin/export'){requireRole(ctx,['admin','owner']);return {schema:1,institutions:all(db,'SELECT * FROM institution').map(publicInstitution),records:all(db,'SELECT * FROM record').map(parsed),exported_at:now()};}
-  if(p==='/api/admin/reports'&&method==='GET'){requireRole(ctx,modRoles);return {items:all(db,'SELECT * FROM report ORDER BY created_at DESC')};}
+  if(p==='/api/admin/reports'&&method==='GET'){requireRole(ctx,modRoles);audit(db,u.id,'review_cases','report',null,null,null,'Authorized review of user-submitted reports; private conversation bodies excluded except explicitly shared selected-message evidence');return {items:all(db,'SELECT * FROM report ORDER BY created_at DESC')};}
   if(parts[2]==='reports'&&parts[3]&&method==='PATCH'){
     requireRole(ctx,modRoles);assert(['open','reviewing','resolved','dismissed'].includes(b.status),'Invalid case state.');assert(clean(b.resolution,2000).length>=5,'Explain the case decision.');const old=one(db,'SELECT * FROM report WHERE id=?',parts[3]);assert(old,'Case not found.',404);transaction(db,()=>{run(db,'UPDATE report SET status=?,resolution=? WHERE id=?',b.status,clean(b.resolution,2000),old.id);audit(db,u.id,'case','report',old.id,old,b,b.resolution);if(old.author_id)notifyOwner(db,old.author_id,`Your case ${old.id.slice(0,8)} is ${b.status}.`,'/account');});return {ok:true};
   }

@@ -1,0 +1,961 @@
+[
+  {
+    "name": "Dhaka Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 24
+  },
+  {
+    "name": "Sir Salimullah Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 27
+  },
+  {
+    "name": "Mymensingh Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 30
+  },
+  {
+    "name": "Sher-E-Bangla Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 34
+  },
+  {
+    "name": "Faridpur Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 35
+  },
+  {
+    "name": "Shaheed Suhrawardi Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 38
+  },
+  {
+    "name": "Shaheed Syed Nazrul Islam Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 40
+  },
+  {
+    "name": "Gopalganj Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 41
+  },
+  {
+    "name": "Shaheed Tajuddin Ahmad Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 42
+  },
+  {
+    "name": "Tangail Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 43
+  },
+  {
+    "name": "Patuakhali Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 46
+  },
+  {
+    "name": "Manikganj Medical College, Manikganj",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 49
+  },
+  {
+    "name": "Jamalpur Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 50
+  },
+  {
+    "name": "Mugda Medical College, Mugda, Dhaka",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 51
+  },
+  {
+    "name": "Netrokona Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Dhaka University",
+    "source_line": 54
+  },
+  {
+    "name": "Bangladesh Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 61
+  },
+  {
+    "name": "Jahurul Islam Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 63
+  },
+  {
+    "name": "Dhaka National Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 64
+  },
+  {
+    "name": "Medical College for Women & Hospital",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 66
+  },
+  {
+    "name": "Z. H. Sikder Womens Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 67
+  },
+  {
+    "name": "Shaheed Monsur Ali Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 69
+  },
+  {
+    "name": "Community Based Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 71
+  },
+  {
+    "name": "Kumudini Women’s Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 72
+  },
+  {
+    "name": "Ibrahim Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 75
+  },
+  {
+    "name": "Holy Family Red Crescent Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 77
+  },
+  {
+    "name": "International Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 79
+  },
+  {
+    "name": "Tayerunnessa Memorial Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 81
+  },
+  {
+    "name": "East West Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 84
+  },
+  {
+    "name": "Enam Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 85
+  },
+  {
+    "name": "Shahabuddin Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 87
+  },
+  {
+    "name": "Uttara Adhunik Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 90
+  },
+  {
+    "name": "Nightingale Medical College (Recognition withheld)",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 91
+  },
+  {
+    "name": "Popular Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 95
+  },
+  {
+    "name": "Ibn Sina Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 97
+  },
+  {
+    "name": "Delta Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 101
+  },
+  {
+    "name": "Anwer Khan Modern Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 107
+  },
+  {
+    "name": "Ad-din Women’s Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 112
+  },
+  {
+    "name": "Green Life Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 117
+  },
+  {
+    "name": "Dhaka Community Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 119
+  },
+  {
+    "name": "Monno Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 121
+  },
+  {
+    "name": "MH Samorita Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 123
+  },
+  {
+    "name": "City Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 127
+  },
+  {
+    "name": "Marks Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 130
+  },
+  {
+    "name": "Diabetic Association Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 133
+  },
+  {
+    "name": "Northern International Medical College (Recognition withheld)",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 136
+  },
+  {
+    "name": "Dr. Sirajul Islam Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 141
+  },
+  {
+    "name": "Dhaka Central International Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 142
+  },
+  {
+    "name": "Universal Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 145
+  },
+  {
+    "name": "President Abdul Hamid Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 149
+  },
+  {
+    "name": "Bashundhara Ad-din Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 153
+  },
+  {
+    "name": "Ashiyan Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 156
+  },
+  {
+    "name": "Bikrampur Bhuiyan Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 161
+  },
+  {
+    "name": "US-Bangla Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 165
+  },
+  {
+    "name": "Monowara Sikder Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 167
+  },
+  {
+    "name": "Gonoshasthaya Samaj Vittik Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 168
+  },
+  {
+    "name": "Ahsania Mission Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 169
+  },
+  {
+    "name": "United Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Dhaka University",
+    "source_line": 170
+  },
+  {
+    "name": "Dhaka Dental College",
+    "kind": "dental_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental College/Dental Units under Dhaka University",
+    "source_line": 179
+  },
+  {
+    "name": "Mymensingh Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental College/Dental Units under Dhaka University",
+    "source_line": 181
+  },
+  {
+    "name": "Sir Salimullah Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental College/Dental Units under Dhaka University",
+    "source_line": 186
+  },
+  {
+    "name": "Shaheed Suhrawardi Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental College/Dental Units under Dhaka University",
+    "source_line": 189
+  },
+  {
+    "name": "Pioneer Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 197
+  },
+  {
+    "name": "City Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 199
+  },
+  {
+    "name": "University Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 203
+  },
+  {
+    "name": "Sapparo Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 208
+  },
+  {
+    "name": "Bangladesh Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 211
+  },
+  {
+    "name": "Update Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 215
+  },
+  {
+    "name": "Mandy Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 219
+  },
+  {
+    "name": "Saphena Women’s Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 223
+  },
+  {
+    "name": "Marks Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 224
+  },
+  {
+    "name": "MH Samorita Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 227
+  },
+  {
+    "name": "Delta Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 230
+  },
+  {
+    "name": "Kumudini Women’s Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 236
+  },
+  {
+    "name": "Dhaka Community Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 238
+  },
+  {
+    "name": "Gonoshasthaya Samaj Vittik Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 240
+  },
+  {
+    "name": "Holy Family Red Crescent Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 241
+  },
+  {
+    "name": "Ibrahim Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Dhaka University",
+    "source_line": 243
+  },
+  {
+    "name": "Chittagong Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Chittagong University)",
+    "source_line": 250
+  },
+  {
+    "name": "Comilla Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Chittagong University)",
+    "source_line": 253
+  },
+  {
+    "name": "Cox’s Bazar Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Chittagong University)",
+    "source_line": 256
+  },
+  {
+    "name": "Noakhali Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Chittagong University)",
+    "source_line": 257
+  },
+  {
+    "name": "Chandpur Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Chittagong University)",
+    "source_line": 259
+  },
+  {
+    "name": "Chittagong Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental College/Dental Unit under Chittagong Medical University From session 2017-2018 (Before session 2017-2018 under mentioned Dental Unit was under Chittagong University)",
+    "source_line": 271
+  },
+  {
+    "name": "Central Medical College, Comilla",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 276
+  },
+  {
+    "name": "Eastern Medical College, Comilla",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 278
+  },
+  {
+    "name": "B.G.C Trust Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 281
+  },
+  {
+    "name": "Institute of Applied Health Science (IAHS)",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 285
+  },
+  {
+    "name": "Southern Medical College & Hospital",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 286
+  },
+  {
+    "name": "Mainamoti Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 293
+  },
+  {
+    "name": "Chattagram Maa-O-Shishu Hospital Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 295
+  },
+  {
+    "name": "Chattagram Intermational Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 299
+  },
+  {
+    "name": "Brahmanbaria Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 303
+  },
+  {
+    "name": "Marine City Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Chittagong Medical University from session 2017-2018 . (Before session 2017-2018 under mentioned Colleges were under Chittagong University except Institute of Applied Health Science (IAHS), which was under University of Science &Technology, USTC)",
+    "source_line": 306
+  },
+  {
+    "name": "Chittagong International Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental College under Chittagong Medical University From session 2017-2018 (Before session 2017-2018 under mentioned College was under Chittagong University)",
+    "source_line": 319
+  },
+  {
+    "name": "Magura Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical College under Khulna Medical University, Khulna",
+    "source_line": 327
+  },
+  {
+    "name": "Rajshahi Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 333
+  },
+  {
+    "name": "Rangpur Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 338
+  },
+  {
+    "name": "Khulna Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 341
+  },
+  {
+    "name": "Shaheed Ziaur Rahman Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 344
+  },
+  {
+    "name": "Dinajpur Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 347
+  },
+  {
+    "name": "Pabna Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 350
+  },
+  {
+    "name": "Jessore Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 351
+  },
+  {
+    "name": "Satkhira Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 352
+  },
+  {
+    "name": "Kushtia Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 353
+  },
+  {
+    "name": "Shaheed M Monsur Ali Medical College, Sirajgonj",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Colleges were under Rajshahi University)",
+    "source_line": 354
+  },
+  {
+    "name": "Rajshahi Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental Colleges/ Dental Units under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Dental Colleges/ Dental Units were under Rajshahi University)",
+    "source_line": 361
+  },
+  {
+    "name": "Rangpur Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental Colleges/ Dental Units under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Dental Colleges/ Dental Units were under Rajshahi University)",
+    "source_line": 366
+  },
+  {
+    "name": "North Bengal Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 371
+  },
+  {
+    "name": "Islami Bank Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 375
+  },
+  {
+    "name": "Khwaja Yunus Ali Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 379
+  },
+  {
+    "name": "T.M.S.S. Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 384
+  },
+  {
+    "name": "Prime Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 386
+  },
+  {
+    "name": "Rangpur Community Medical College & Hospital",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 389
+  },
+  {
+    "name": "Northern (Pvt.) Medical College (Recognition withheld)",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 396
+  },
+  {
+    "name": "Barind Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 400
+  },
+  {
+    "name": "Gazi Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 404
+  },
+  {
+    "name": "Ad-din Sakina Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 406
+  },
+  {
+    "name": "Khulna City Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Rajshahi Medical University from session 2017-2018 (Before session 2017-2018 under mentioned Medical Colleges were under Rajshahi University)",
+    "source_line": 409
+  },
+  {
+    "name": "Rangpur Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Rajshahi Medical University From session 2017-2018 (Before session 2017-2018 under mentioned Dental Colleges/ Dental Units were under Rajshahi University)",
+    "source_line": 420
+  },
+  {
+    "name": "Udayan Dental College",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Rajshahi Medical University From session 2017-2018 (Before session 2017-2018 under mentioned Dental Colleges/ Dental Units were under Rajshahi University)",
+    "source_line": 423
+  },
+  {
+    "name": "T.M.S.S. Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Rajshahi Medical University From session 2017-2018 (Before session 2017-2018 under mentioned Dental Colleges/ Dental Units were under Rajshahi University)",
+    "source_line": 427
+  },
+  {
+    "name": "Islami Bank Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental Colleges/Dental Units under Rajshahi Medical University From session 2017-2018 (Before session 2017-2018 under mentioned Dental Colleges/ Dental Units were under Rajshahi University)",
+    "source_line": 428
+  },
+  {
+    "name": "Armed Forces Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Bangladesh University of Professionals (BUP)",
+    "source_line": 441
+  },
+  {
+    "name": "Army Medical College Chattogram",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non Govt. Medical Colleges under Bangladesh University of Professionals (BUP)",
+    "source_line": 448
+  },
+  {
+    "name": "Army Medical College Rangpur",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non Govt. Medical Colleges under Bangladesh University of Professionals (BUP)",
+    "source_line": 449
+  },
+  {
+    "name": "Army Medical College Jessore",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non Govt. Medical Colleges under Bangladesh University of Professionals (BUP)",
+    "source_line": 450
+  },
+  {
+    "name": "Army Medical College Cumilla",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non Govt. Medical Colleges under Bangladesh University of Professionals (BUP)",
+    "source_line": 451
+  },
+  {
+    "name": "Army Medical College Bogura",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non Govt. Medical Colleges under Bangladesh University of Professionals (BUP)",
+    "source_line": 452
+  },
+  {
+    "name": "M.A.G. Osmani Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of Govt. Medical Colleges under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 under mentioned Medical College was under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 460
+  },
+  {
+    "name": "M.A.G. Osmani Medical College Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "government",
+    "source_section": "List of Govt. Dental Colleges/ Dental Units under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 under mentioned Dental Unit was under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 468
+  },
+  {
+    "name": "Jalalabad Ragib Rabeya Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 under mentioned Medical Colleges were under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 473
+  },
+  {
+    "name": "North East Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 under mentioned Medical Colleges were under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 476
+  },
+  {
+    "name": "Sylhet Women’s Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 under mentioned Medical Colleges were under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 480
+  },
+  {
+    "name": "Parkview Medical College",
+    "kind": "medical_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Medical Colleges under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 under mentioned Medical Colleges were under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 485
+  },
+  {
+    "name": "North East Medical College, Dental Unit",
+    "kind": "dental_unit",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental College/ Dental Unit under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 These were under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 493
+  },
+  {
+    "name": "Sylhet Central Dental College, Sylhet",
+    "kind": "dental_college",
+    "ownership": "private",
+    "source_section": "List of Non-Govt. Dental College/ Dental Unit under Sylhet Medical University from session 2018-2019 (Before session 2018-2019 These were under Shahjalal University of Science & Technology (SUST)",
+    "source_line": 496
+  },
+  {
+    "name": "Ad-din Akij Medical College",
+    "kind": "medical_college",
+    "ownership": "government",
+    "source_section": "List of College under Sheikh Hasina Medical University, Khulna",
+    "source_line": 506
+  }
+]

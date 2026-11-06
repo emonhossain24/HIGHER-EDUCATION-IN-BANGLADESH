@@ -2,21 +2,24 @@
 
 A bilingual, source-aware institution directory and community application. The Bangladesh flag is used for the website logo and favicon.
 
-The application includes 181 university identity pages from the supplied UGC snapshot (61 public, 116 private, 3 international, 1 CBHE), plus 32 separately classified specialist identity examples. Directory inclusion does not certify current recognition or admission permission.
+The application includes 181 university identity pages from the supplied UGC snapshot (61 public, 116 private, 3 international, 1 CBHE), plus 148 separately classified specialist identities (137 from the retrieved BMDC table and 11 textile records). Directory inclusion does not certify current recognition or admission permission.
 
 ## What works
 
-- Search, combined category/type filters, permanent institution pages, source records, comparisons and shareable comparison URLs.
+- Search, combined category/type filters, permanent institution pages, source records, comparisons, full-text search and shareable comparison URLs.
+- Calendar/ICS exports, seat-capacity filters, private application checklists and opt-in alert subscriptions.
 - Email/password accounts with verification, password recovery, revocable sessions, server authorization and mandatory staff TOTP.
-- Database-backed posts, replies, likes, bookmarks, reviews, reports, notifications, consent-based private messages and blocks.
-- Separate staff console with typed content records, draft/publish, optimistic concurrency, independent review for high-impact facts, revisions, rollback, moderation, user access and validated JSON imports.
-- Editable homepage copy, module order, navigation, logo, favicon, typography, palette, footer and informational pages.
+- Database-backed posts, replies, accepted answers, groups, follows, likes, bookmarks, dimensioned reviews, reports, notifications, consent-based private messages and blocks.
+- Separate staff console with field-based forms, visual palette/module controls, scheduled draft publication, field evidence, optimistic concurrency, independent review, revisions, rollback, moderation and validated JSON/CSV imports.
+- Editable homepage copy, module order, visual navigation controls, page blocks, logo, favicon, typography, palette, footer and informational pages.
+- Manual, expiring institution-representative authority with scoped draft submissions, independent review and revocation.
+- Participant-consented selected-message reports, without a general staff inbox-reading interface.
 - Programme/admission/fee/scholarship/ranking catalogues, session-aware admission status, eligibility rules and tuition calculation engines. A separate personal cost planner accepts user-supplied scenarios.
 - Restricted media uploads, consistent database backups, Docker configuration and GitHub Actions checks.
 
 ## Run
 
-Requires **Node.js 24+**. No third-party runtime dependencies or package installation is needed.
+Requires **Node.js 24+**. The core server uses Node built-ins. Image uploads additionally require ImageMagick; the Dockerfile installs it. PDF uploads require a configured scanner with current definitions.
 
 ```sh
 cp .env.example .env
@@ -29,7 +32,7 @@ See [operations](docs/OPERATIONS.md) for mail, staff provisioning, HTTPS, backup
 
 ## Data honesty
 
-The supplied blueprint is retained in `docs/`. University identity data reproduces its snapshot and has not been independently revalidated institution by institution. Unchecked website strings are retained without clickable claims. Academic details are **not** invented to fill empty catalogues. No live admission dates, fees, seats, scholarships or ranking numbers have been source-verified and published in this initial dataset.
+The supplied blueprint is retained in `docs/`. The 181 university names/categories have now been matched to the four official UGC category tables. This identity check does not validate each programme, campus or intake. Unchecked website strings are retained without clickable claims. Academic details are **not** invented to fill empty catalogues. The catalogue now includes 23 source-backed records covering ULAB and BRAC programmes, fee schedules, admission announcements and a waiver summary. Source coverage for other institutions remains incomplete. No unsupported seat or ranking values are published.
 
 Platform implementation and verified content coverage are separate. This repository is a working staging foundation, not the blueprint's fully completed national data service. See the explicit remaining work in the verification report before a public launch.
 

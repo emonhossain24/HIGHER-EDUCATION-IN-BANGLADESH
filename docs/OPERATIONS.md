@@ -35,3 +35,15 @@ PNG, JPEG and WebP are accepted after signature checks, with a 5 MB limit. PDF u
 ## Release checks
 
 Run `npm run check` and `npm test`, verify the live mail transport, test account recovery, review source freshness and licensing, configure backups and retention, conduct accessibility and security review, and smoke-test the actual deployed host. No deployment or live email delivery was performed in this build.
+
+## Scheduling, source checks and alerts
+
+Approved publication jobs are checked every 30 seconds by the single application process. The worker rejects drafts changed after approval, revoked approvers and invalid references. Run `npm run jobs` regularly to dispatch explicitly opted-in email alerts through the configured delivery endpoint and clear expired sessions/tokens/rate counters. In-app notifications are written when relevant reviewed records are published.
+
+`npm run sources:check` only checks a fixed set of official-source hosts. It resolves public IPv4 addresses, pins the selected address, caps size/time and refuses redirects. The script records hashes/status for editorial review and does not auto-publish critical assertions. It may fail when site policies or runtime network access prevent retrieval; those failures are not source verification.
+
+`/admin?section=schedule` manages publication jobs. `evidence` attaches field provenance. `source-health` displays recorded changes. `/coverage` exposes actual per-institution source coverage. The public calendar exports all-day dates without inventing an application deadline hour.
+
+## System image dependency
+
+Image uploads now require ImageMagick (`IMAGE_CONVERT_PATH`, default `magick`). The Dockerfile includes ImageMagick and ClamAV binaries. Configure and keep ClamAV definitions current before enabling PDF uploads. Every accepted image is decoded, stripped, bounded to 2400×2400 and reencoded with resource/time limits. Source document linking remains available when scanning cannot complete.

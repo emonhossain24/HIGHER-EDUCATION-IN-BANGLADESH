@@ -1,4 +1,5 @@
 FROM node:24-alpine
+RUN apk add --no-cache imagemagick clamav
 WORKDIR /app
 COPY --chown=node:node . .
 RUN mkdir -p /app/var && chown node:node /app/var

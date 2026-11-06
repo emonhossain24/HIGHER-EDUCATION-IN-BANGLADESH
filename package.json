@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "description": "Source-aware Bangladesh higher education directory and community",
-  "engines": { "node": ">=24.0.0" },
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "dev": "node --watch server/index.mjs",
     "start": "node server/index.mjs",
@@ -12,6 +14,8 @@
     "check": "node scripts/check.mjs",
     "seed": "node scripts/seed.mjs",
     "staff": "node scripts/staff.mjs",
-    "backup": "node scripts/backup.mjs"
+    "backup": "node scripts/backup.mjs",
+    "jobs": "node scripts/jobs.mjs",
+    "sources:check": "node scripts/source-monitor.mjs"
   }
 }

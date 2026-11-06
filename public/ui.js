@@ -1,9 +1,10 @@
+import {translate,localize} from './i18n.js';
 export const h=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const state={session:null,csrf:null,boot:null,lang:localStorage.getItem('hebd-language')||'en'};
-export const t=(en,bn)=>state.lang==='bn'&&bn?bn:en;
+export const t=(en,bn)=>state.lang==='bn'?(bn||translate(en)):en;
 export async function api(path,method='GET',data){const res=await fetch('/api'+path,{method,headers:{'Content-Type':'application/json',...(state.csrf?{'X-CSRF-Token':state.csrf}:{})},...(data!==undefined?{body:JSON.stringify(data)}:{})});const value=await res.json();if(!res.ok)throw new Error(value.error||'Request failed');return value;}
 export function toast(message){const el=document.querySelector('#toast');el.textContent=message;el.style.display='block';clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.style.display='none',4500);}
-export function modal(html){const d=document.querySelector('#dialog');d.innerHTML='<button class="close" aria-label="Close">×</button>'+html;d.querySelector('.close').onclick=()=>d.close();if(!d.open)d.showModal();return d;}
+export function modal(html){const d=document.querySelector('#dialog');d.innerHTML='<button class="close" aria-label="Close">×</button>'+html;d.querySelector('.close').onclick=()=>d.close();localize(d,state.lang);if(!d.open)d.showModal();return d;}
 export const date=v=>v?new Date(v).toLocaleString(state.lang==='bn'?'bn-BD':'en-GB',{timeZone:'Asia/Dhaka',year:'numeric',month:'short',day:'numeric'}):t('Not yet verified','এখনো যাচাই করা হয়নি');
 export const name=i=>state.lang==='bn'&&i.name_bn?i.name_bn:i.name_en;
 export const instPath=i=>i.kind==='university'?'/universities/'+i.slug:'/institutions/'+i.kind.split('_')[0]+'/'+i.slug;
@@ -14,3 +15,5 @@ export function card(i){return `<article class="card"><div class="flex"><div cla
 export function bindForm(id,fn){const form=document.getElementById(id);if(!form)return;form.onsubmit=async e=>{e.preventDefault();const error=form.querySelector('.error');if(error)error.textContent='';const button=form.querySelector('[type=submit]');if(button)button.disabled=true;try{await fn(Object.fromEntries(new FormData(form)),form);}catch(e){if(error)error.textContent=e.message;else toast(e.message);}finally{if(button)button.disabled=false;}};}
 export function download(name,data){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
 export function requireLogin(){if(state.session)return true;location.href='/login?next='+encodeURIComponent(location.pathname+location.search);return false;}
+
+export function upload(data,onProgress){return new Promise((resolve,reject)=>{const xhr=new XMLHttpRequest();xhr.open('POST','/api/media');xhr.setRequestHeader('Content-Type','application/json');if(state.csrf)xhr.setRequestHeader('X-CSRF-Token',state.csrf);xhr.upload.onprogress=e=>{if(e.lengthComputable)onProgress(Math.round(e.loaded/e.total*100));};xhr.onload=()=>{try{const body=JSON.parse(xhr.responseText);if(xhr.status>=200&&xhr.status<300)resolve(body);else reject(Error(body.error||'Upload failed'));}catch{reject(Error('Upload response was invalid'));}};xhr.onerror=()=>reject(Error('Upload connection failed'));xhr.send(JSON.stringify(data));});}

@@ -15,13 +15,15 @@ export function safeUrl(value,{local=false}={}){
 export function admissionStatus(data,date=new Date()){
   if(data.state==='cancelled')return 'cancelled';
   if(data.superseded_by)return 'superseded';
-  if(data.verification!=='verified'||!data.source_url||!data.opens_at||!data.closes_at)return 'not_verified';
+  if(data.verification!=='verified'||!data.source_url)return 'not_verified';
+  if(!data.opens_at||!data.closes_at)return data.deadline_date||data.announcement_state?'announcement_only':'not_verified';
   if(data.restricted)return 'restricted';
   const start=Date.parse(data.opens_at),end=Date.parse(data.closes_at),time=date.getTime();
   if(!Number.isFinite(start)||!Number.isFinite(end)||end<=start)return 'not_verified';
   return time<start?'upcoming':time>=end?'closed':data.extended?'extended':'open';
 }
 export function calculateFee(fee,waiver=0){
+  if(fee.basis==='published_total'&&fee.verification==='verified'&&['published_total','credits','per_credit'].every(k=>typeof fee[k]==='number'&&fee[k]>=0)){assert(Number.isFinite(waiver)&&waiver>=0&&waiver<=100,'Waiver must be between 0 and 100.');const allowed=Math.min(waiver,fee.waiver_cap??0),discount=fee.credits*fee.per_credit*allowed/100;return {status:'estimated',gross:fee.published_total,tuition:fee.credits*fee.per_credit,waiver:discount,net:Math.max(0,fee.published_total-discount),waiver_percent:allowed,currency:'BDT',basis:'Published source total minus tuition-only scenario waiver',excludes:fee.excludes};}
   const fields=['credits','per_credit','terms','per_term','one_time','other_required'];
   if(fields.some(k=>typeof fee[k]!=='number'||!Number.isFinite(fee[k])||fee[k]<0)||fee.verification!=='verified')return {status:'not_verified',message:'Unable to calculate reliably. Required inputs are not verified.'};
   assert(Number.isFinite(waiver)&&waiver>=0&&waiver<=100,'Waiver must be between 0 and 100.');
@@ -43,7 +45,9 @@ export function validateRecord(kind,d,publish=false){
     if((key.endsWith('_url')||key==='url')&&value)safeUrl(value,{local:['logo_url','favicon_url','image_url'].includes(key)});
     if(['credits','per_credit','terms','per_term','one_time','other_required','seats','duration_months','waiver_cap','rank_exact','rank_band_from','rank_band_to'].includes(key)&&value!==null&&value!==undefined)assert(typeof value==='number'&&Number.isFinite(value)&&value>=0,`${key} must be a nonnegative number.`);
   }
+  if(d.checked_at)assert(Number.isFinite(Date.parse(d.checked_at)),'Checked date must be valid.');
   if(d.verification)assert(['not_verified','verified','conflicting','expired','not_applicable'].includes(d.verification),'Invalid verification state.');
+  if(kind==='page'&&d.blocks){assert(Array.isArray(d.blocks)&&d.blocks.length<=50,'A page can contain up to 50 blocks.');for(const block of d.blocks){assert(['heading','paragraph','callout','link'].includes(block.type)&&typeof block.text==='string','Invalid content block.');if(block.type==='link')safeUrl(block.url);}}
   if(kind==='ranking'){
     assert(!d.rank_exact||(!d.rank_band_from&&!d.rank_band_to),'Exact rank and rank band cannot coexist.');
     if(d.rank_band_from||d.rank_band_to)assert(d.rank_band_from>0&&d.rank_band_to>=d.rank_band_from,'Invalid ranking band.');
@@ -58,6 +62,10 @@ export function validateRecord(kind,d,publish=false){
   if(kind==='fee'&&publish)assert(d.programme_id&&d.effective_session&&d.expires_at,'Fees require programme, effective session and expiry date.');
   if(kind==='scholarship'&&publish)assert(d.benefit&&d.criteria&&d.renewal,'Scholarships require benefit, criteria and renewal terms.');
   if(kind==='settings'){
+    if('modules' in d)assert(Array.isArray(d.modules),'Homepage modules must be a list.');
+    if('colors' in d)assert(d.colors&&typeof d.colors==='object'&&!Array.isArray(d.colors),'Palette must be an object.');
+    for(const key of ['hero_en','hero_bn','intro_en','intro_bn','footer_en','footer_bn','logo_url','favicon_url'])if(key in d)assert(typeof d[key]==='string'&&(!['logo_url','favicon_url'].includes(key)||d[key].length>0),'Required appearance fields cannot be empty or invalid.');
+    for(const key of ['registration','messaging'])if(key in d)assert(typeof d[key]==='boolean','Feature flags must be true or false.');
     for(const value of Object.values(d.colors||{}))assert(/^#[a-fA-F0-9]{6}$/.test(value),'Theme colors must use #RRGGBB.');
     if(d.font)assert(['system','serif','sans'].includes(d.font),'Unsupported font.');
     for(const key of ['logo_url','favicon_url'])if(d[key])safeUrl(d[key],{local:true});
@@ -77,5 +85,6 @@ export function validateInstitution(d){
   assert(d.kind==='university'||!d.directory_listed,'Colleges cannot be counted as UGC universities.');
   assert(['public','private','international','cbhe',null].includes(d.category??null),'Invalid UGC category.');
   if(d.website_url){safeUrl(d.website_url);assert(d.website_verified===true,'Confirm verification before publishing a website link.');}
+  if(d.regulatory_status==='verified'||d.admission_permission==='verified')assert(d.checked_at&&Number.isFinite(Date.parse(d.checked_at)),'Verified regulatory or admission status needs a valid checked date.');
   safeUrl(d.source_url);return d;
 }

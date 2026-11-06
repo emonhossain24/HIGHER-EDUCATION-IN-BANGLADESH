@@ -4,8 +4,11 @@ import {resolve,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {randomUUID,createHash} from 'node:crypto';
 import {now} from './domain.mjs';
+import {extensionsSchema} from './extensions-schema.mjs';
 export const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 export const defaults={title:'Higher Education in Bangladesh',title_bn:'বাংলাদেশে উচ্চশিক্ষা',brand_short:'HEBD',hero_en:'Your next chapter,\nin Bangladesh.',hero_bn:'আপনার পরবর্তী অধ্যায়,\nবাংলাদেশেই।',intro_en:'Explore institutions, understand admissions, and make an informed choice — with the source always in sight.',intro_bn:'প্রতিষ্ঠান খুঁজুন, ভর্তি সম্পর্কে জানুন ও তথ্যের উৎস দেখে সিদ্ধান্ত নিন।',logo_url:'/assets/bd-flag.svg',favicon_url:'/assets/bd-flag.svg',font:'system',colors:{accent:'#0b7165',ink:'#142e37',background:'#f6f7f4'},modules:['directory','subjects','admissions','compare','funding','rankings','community','sources'],footer_en:'Independent information and community platform. Not affiliated with or endorsed by UGC, BMDC, DGME, BUTEX or ranking publishers.',footer_bn:'স্বতন্ত্র তথ্য ও কমিউনিটি প্ল্যাটফর্ম। UGC, BMDC, DGME, BUTEX বা র‍্যাঙ্কিং প্রকাশকের অনুমোদিত অংশীদার নয়।',contact_en:'For corrections, use the source-linked correction form.',title_meta:'Higher Education in Bangladesh | Institution directory',registration:true,messaging:true};
+export const defaultHomeContent={home_directory_heading:'Find your place.',home_pathways_heading:'Explore a different path.',home_admissions_heading:'The right information, at the right time.',home_compare_heading:'A better decision starts with a comparison.',home_budget_heading:'Understand the whole cost.',home_funding_heading:'Find financial support.',home_rankings_heading:'Read rankings in context.',home_community_heading:'Ask. Share. Learn from experience.',home_sources_heading:'Always follow the source.'};
+defaults.content=defaultHomeContent;
 export const defaultNav={title:'Main navigation',items:[{label:'Explore',label_bn:'প্রতিষ্ঠান',href:'/universities'},{label:'Programmes',label_bn:'প্রোগ্রাম',href:'/programmes'},{label:'Admissions',label_bn:'ভর্তি',href:'/admissions'},{label:'Funding',label_bn:'অর্থায়ন',href:'/scholarships'},{label:'Rankings',label_bn:'র‍্যাঙ্কিং',href:'/rankings'},{label:'Community',label_bn:'কমিউনিটি',href:'/community'}]};
 export function openDatabase(path){
   mkdirSync(dirname(path),{recursive:true});const db=new DatabaseSync(path);db.exec('PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON; PRAGMA busy_timeout=5000;');
@@ -36,6 +39,7 @@ export function openDatabase(path){
   CREATE TABLE IF NOT EXISTS source_check(id TEXT PRIMARY KEY,record_id TEXT NOT NULL REFERENCES record(id),status INTEGER,hash TEXT,changed INTEGER NOT NULL DEFAULT 0,checked_at TEXT NOT NULL);
   CREATE TABLE IF NOT EXISTS meta(key TEXT PRIMARY KEY,value TEXT NOT NULL);
   `);
+  extensionsSchema(db);
   return db;
 }
 export const one=(db,sql,...args)=>db.prepare(sql).get(...args);
@@ -50,8 +54,14 @@ export function seed(db){
   const entries=JSON.parse(readFileSync(resolve(root,'data/seeds/ugc-2026-11-06.json'),'utf8'));
   const specialists=JSON.parse(readFileSync(resolve(root,'data/seeds/specialists.json'),'utf8'));
   transaction(db,()=>{
-    for(const item of [...entries,...specialists])run(db,'INSERT OR IGNORE INTO institution(id,slug,category,kind,data) VALUES(?,?,?,?,?)',item.id,item.slug,item.category??null,item.kind,JSON.stringify(item));
+    for(const item of [...entries,...specialists]){
+      run(db,'INSERT OR IGNORE INTO institution(id,slug,category,kind,data) VALUES(?,?,?,?,?)',item.id,item.slug,item.category??null,item.kind,JSON.stringify(item));
+      const previous=one(db,'SELECT * FROM institution WHERE id=?',item.id);
+      if(previous.version===1&&!JSON.parse(previous.data).directory_checked_at&&item.directory_checked_at)run(db,'UPDATE institution SET data=? WHERE id=?',JSON.stringify(item),item.id);
+    }
     for(const [id,kind,data] of [['site','settings',{...defaults,title:defaults.title}],['nav','navigation',defaultNav],...JSON.parse(readFileSync(resolve(root,'data/source-registry.json'),'utf8')).map(s=>[s.id,'source',s])])run(db,'INSERT OR IGNORE INTO record(id,kind,data,published,status,updated_at) VALUES(?,?,?,?,?,?)',id,kind,JSON.stringify(data),JSON.stringify(data),'published',now());
+    for(const source of JSON.parse(readFileSync(resolve(root,'data/source-registry.json'),'utf8'))){const previous=one(db,'SELECT * FROM record WHERE id=?',source.id);if(previous&&previous.version===1&&source.checked_at&&!JSON.parse(previous.data).checked_at)run(db,'UPDATE record SET data=?,published=? WHERE id=?',JSON.stringify(source),JSON.stringify(source),source.id);}
+    for(const item of JSON.parse(readFileSync(resolve(root,'data/seeds/reviewed-catalogue.json'),'utf8')))run(db,'INSERT OR IGNORE INTO record(id,kind,institution_id,data,published,status,updated_at) VALUES(?,?,?,?,?,?,?)',item.id,item.kind,item.institution_id,JSON.stringify(item.data),JSON.stringify(item.data),'published',now());
     run(db,'INSERT OR IGNORE INTO meta VALUES(?,?)','schema_version','1');
   });
 }
