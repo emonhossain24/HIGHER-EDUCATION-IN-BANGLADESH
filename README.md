@@ -1,5 +1,10 @@
 # Higher Education in Bangladesh
 
+## Administration and editorial review
+
+The staff console is designed for institution records, source-backed programme details, multilingual page content, moderation and import/review workflows. High-impact changes require an independent authorized reviewer. Institution listings are not a statement of current accreditation or admission availability; source records and the verification report provide their individual context.
+
+
 A bilingual, source-aware institution directory and community application. The Bangladesh flag is used for the website logo and favicon.
 
 The application includes 181 university identity pages from the supplied UGC snapshot (61 public, 116 private, 3 international, 1 CBHE), plus 148 separately classified specialist identities (137 from the retrieved BMDC table and 11 textile records). Directory inclusion does not certify current recognition or admission permission.
