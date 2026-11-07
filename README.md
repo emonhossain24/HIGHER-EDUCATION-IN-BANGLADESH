@@ -12,7 +12,7 @@ The application includes 181 university identity pages from the supplied UGC sna
 - Database-backed posts, replies, accepted answers, groups, follows, likes, bookmarks, dimensioned reviews, reports, notifications, consent-based private messages and blocks.
 - Editable homepage copy, module order, visual navigation controls, page blocks, logo, favicon, typography, palette, footer and informational pages.
 - Manual, expiring institution-representative authority with scoped draft submissions, independent review and revocation.
-- Participant-consented selected-message reports, without a general staff inbox-reading interface.
+- Participant-consented selected-message reporting and privacy protections.
 - Programme/admission/fee/scholarship/ranking catalogues, session-aware admission status, eligibility rules and tuition calculation engines. A separate personal cost planner accepts user-supplied scenarios.
 - Restricted media uploads, consistent database backups, Docker configuration and GitHub Actions checks.
 
