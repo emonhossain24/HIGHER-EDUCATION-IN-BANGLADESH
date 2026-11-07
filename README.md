@@ -32,7 +32,7 @@ See [operations](docs/OPERATIONS.md) for mail, staff provisioning, HTTPS, backup
 
 ## Data honesty
 
-The supplied blueprint is retained in `docs/`. The 181 university names/categories have now been matched to the four official UGC category tables. This identity check does not validate each programme, campus or intake. Unchecked website strings are retained without clickable claims. Academic details are **not** invented to fill empty catalogues. The catalogue now includes 23 source-backed records covering ULAB and BRAC programmes, fee schedules, admission announcements and a waiver summary. Source coverage for other institutions remains incomplete. No unsupported seat or ranking values are published.
+The supplied blueprint is retained in `docs/`. The 181 university names/categories have now been matched to the four official UGC category tables. This identity check does not validate each programme, campus or intake. Unchecked website strings are retained without clickable claims. Academic details are **not** invented to fill empty catalogues. The catalogue now includes 76 source-backed records across ULAB, BRAC, NSU, EWU, UIU and DU: 32 programmes, 32 fee schedules, 11 admission announcements and one waiver summary. The 181-university discovery audit retains 374 official-domain source candidates for 143 institutions; discovery links do not certify current facts. Source coverage for other institutions remains incomplete. No unsupported seat or ranking values are published.
 
 Platform implementation and verified content coverage are separate. This repository is a working staging foundation, not the blueprint's fully completed national data service. See the explicit remaining work in the verification report before a public launch.
 

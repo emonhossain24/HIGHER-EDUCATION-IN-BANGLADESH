@@ -14,7 +14,7 @@ export function createApp(options={}){
   const portArg=process.argv.indexOf('--port');const port=Number(options.port??(portArg>=0?process.argv[portArg+1]:undefined)??process.env.PORT??3000),dataDir=resolve(options.dataDir||process.env.DATA_DIR||resolve(root,'var'));
   mkdirSync(dataDir,{recursive:true,mode:0o700});
   const config={port,dataDir,appUrl:options.appUrl||process.env.APP_URL||`http://localhost:${port}`,cookieSecure:options.cookieSecure??process.env.COOKIE_SECURE==='true',mailUrl:process.env.MAIL_WEBHOOK_URL||'',mailToken:process.env.MAIL_WEBHOOK_TOKEN||'',devMail:process.env.DEV_MAIL==='true',imageConvert:process.env.IMAGE_CONVERT_PATH||'magick',clamscan:process.env.CLAMSCAN_PATH||'',...options};
-  if(process.env.NODE_ENV==='production'){assert(config.appUrl.startsWith('https://')&&config.cookieSecure,'Production requires an HTTPS APP_URL and secure cookies.');assert(!config.devMail,'DEV_MAIL must be disabled in production.');}
+  if(process.env.NODE_ENV==='production'){assert(config.appUrl.startsWith('https://')&&config.cookieSecure,'Production requires an HTTPS APP_URL and secure cookies.');assert(!config.devMail,'DEV_MAIL must be disabled in production.');assert(!config.mailUrl||config.mailUrl.startsWith('https://'),'Production email delivery requires HTTPS.');}
   const db=options.db||openDatabase(resolve(dataDir,'hebd.sqlite'));seed(db);rebuildSearch(db);if(existsSync(resolve(dataDir,'hebd.sqlite')))chmodSync(resolve(dataDir,'hebd.sqlite'),0o600);
   const server=http.createServer(async(req,res)=>{
     res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Referrer-Policy','strict-origin-when-cross-origin');res.setHeader('X-Frame-Options','DENY');res.setHeader('Permissions-Policy','camera=(), microphone=(), geolocation=()');res.setHeader('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'");
@@ -25,6 +25,7 @@ export function createApp(options={}){
         assert(req.headers['content-type']?.startsWith('application/json'),'Send JSON content.',415);const buffers=[];let size=0;for await(const chunk of req){size+=chunk.length;assert(size<=8*1024*1024,'Request too large.',413);buffers.push(chunk);}try{body=JSON.parse(Buffer.concat(buffers).toString()||'{}');}catch{throw new HttpError(400,'Invalid JSON.');}assert(body&&typeof body==='object'&&!Array.isArray(body),'Send a JSON object.');
       }
       const ctx={req,res,url,body,db,config,session:getSession(db,req)};
+      if(url.pathname.startsWith('/__qa'))throw new HttpError(404,'Page not found.');
       if(url.pathname==='/calendar.ics'&&req.method==='GET'){const result=await extensions({...ctx,url:new URL('/api/calendar',config.appUrl)});res.setHeader('Content-Type','text/calendar; charset=utf-8');res.setHeader('Content-Disposition','attachment; filename="hebd-admissions.ics"');res.end(formatCalendar(result.items));return;}
       if(url.pathname.startsWith('/api/')){res.setHeader('Cache-Control','no-store');checkCsrf(ctx);const value=await api(ctx);if(!['GET','HEAD'].includes(req.method))rebuildSearch(db);res.setHeader('Content-Type','application/json; charset=utf-8');res.end(JSON.stringify(value));return;}
       assert(['GET','HEAD'].includes(req.method),'Method not allowed.',405);
@@ -39,7 +40,7 @@ export function createApp(options={}){
       }
       let file=resolve(root,'public','.'+path);
       if(path.startsWith('/media/')){assert(/^\/media\/[a-f0-9-]+\.(png|jpg|webp|pdf)$/.test(path),'File not found.',404);assert(one(db,'SELECT 1 FROM media WHERE url=? AND deleted_at IS NULL',path),'File not found.',404);file=resolve(dataDir,'.'+path);}
-      if((path.startsWith('/assets/')||path.startsWith('/media/')||['/workspace.js','/app.js','/admin.js','/ui.js','/i18n.js','/styles.css'].includes(path))&&existsSync(file)&&statSync(file).isFile()){
+      if((path.startsWith('/assets/')||path.startsWith('/media/')||['/workspace.js','/app.js','/admin.js','/ui.js','/i18n.js','/i18n-extra.js','/styles.css'].includes(path))&&existsSync(file)&&statSync(file).isFile()){
         assert(file.startsWith(resolve(root,'public')+'/')||file.startsWith(resolve(dataDir,'media')+'/'),'File not found.',404);res.setHeader('Content-Type',mime[extname(file)]||'application/octet-stream');res.setHeader('Cache-Control','no-cache');if(extname(file)==='.pdf')res.setHeader('Content-Disposition','attachment');if(req.method==='HEAD')res.end();else res.end(readFileSync(file));return;
       }
       assert(!extname(path),'Page not found.',404);

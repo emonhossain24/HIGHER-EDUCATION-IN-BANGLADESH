@@ -1,6 +1,9 @@
 import {resolve} from 'node:path';
+import {existsSync} from 'node:fs';
 import {openDatabase,root,all,one,run} from '../server/db.mjs';
 import {publishScheduled,rebuildSearch} from '../server/extensions.mjs';
+if(existsSync(resolve(root,'.env')))process.loadEnvFile(resolve(root,'.env'));
+if(process.env.NODE_ENV==='production'&&process.env.MAIL_WEBHOOK_URL&&!process.env.MAIL_WEBHOOK_URL.startsWith('https://'))throw Error('Production email delivery requires HTTPS.');
 const db=openDatabase(resolve(process.env.DATA_DIR||resolve(root,'var'),'hebd.sqlite'));
 const published=publishScheduled(db);if(published.length)rebuildSearch(db);
 for(const mail of all(db,"SELECT o.*,u.email,u.privacy,u.deleted_at,u.banned FROM outbox o JOIN users u ON u.id=o.user_id WHERE o.state='pending' AND o.attempts<5 ORDER BY o.created_at LIMIT 50")){

@@ -1,0 +1,3463 @@
+[
+  {
+    "id": "ugc-public-001",
+    "name": "University of Dhaka",
+    "domain": "www.du.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Home :: Dhaka University",
+        "url": "https://www.du.ac.bd/du_post_details/post/29096",
+        "reference": "turn47search0"
+      },
+      {
+        "title": "Home :: Dhaka University",
+        "url": "https://du.ac.bd/index.php/programDetails/BCH/558",
+        "reference": "turn47search1"
+      },
+      {
+        "title": "Undergraduate Programs :: University of Dhaka",
+        "url": "https://www.du.ac.bd/index.php/undergraduatePrograms",
+        "reference": "turn47search2"
+      },
+      {
+        "title": "Home :: Dhaka University",
+        "url": "https://www.du.ac.bd/du_post_details/Professional%20Master%E2%80%99s%20in%20Criminology%20and%20Criminal%20Justice%202026-2027%20Admission%20Circular/28767",
+        "reference": "turn47search3"
+      },
+      {
+        "title": "International Admission :: University of Dhaka",
+        "url": "https://du.ac.bd/InternationalAdmission",
+        "reference": "turn47search4"
+      },
+      {
+        "title": "International Student Fees and Accommodation Structure",
+        "url": "https://ssl.du.ac.bd/public/images/Structurer_compressed_1759047782.pdf",
+        "reference": "turn47search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-002",
+    "name": "University of Rajshahi",
+    "domain": "www.ru.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "RU Admission | 2026-2027",
+        "url": "https://admission.ru.ac.bd/?trk=public_post-text",
+        "reference": "turn47search7"
+      },
+      {
+        "title": "RU Admission | 2025-2026",
+        "url": "https://admission.ru.ac.bd/index.php/student/payment-instructions",
+        "reference": "turn47search8"
+      },
+      {
+        "title": "RU | Admission",
+        "url": "https://admissiondb.ru.ac.bd/site/application-guideline",
+        "reference": "turn47search9"
+      },
+      {
+        "title": "University of Rajshahi",
+        "url": "https://admission.ru.ac.bd/public/hpWnw3XT4H6ZCvdz6wrvn7JsXs1QiRwHIshnL2fI.pdf",
+        "reference": "turn47search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-003",
+    "name": "Bangladesh Agricultural University",
+    "domain": "www.bau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Bangladesh Agricultural University (BAU) | Premier Agricultural Institution in Bangladesh",
+        "url": "https://bau.edu.bd/admission-portal",
+        "reference": "turn47search5"
+      },
+      {
+        "title": "Bangladesh Agricultural University (BAU) | Official Website",
+        "url": "https://app.bau.edu.bd/",
+        "reference": "turn47search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-004",
+    "name": "Bangladesh University of Engineering & Technology",
+    "domain": "www.buet.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-005",
+    "name": "University of Chittagong",
+    "domain": "www.cu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "CU Admission Portal",
+        "url": "https://admissiondev.cu.ac.bd/",
+        "reference": "turn48search0"
+      },
+      {
+        "title": "Fee Payment Rules - CU Admission Portal",
+        "url": "https://admissiondev.cu.ac.bd/fee-payment-rules",
+        "reference": "turn48search1"
+      },
+      {
+        "title": "CU Admission Portal",
+        "url": "https://admission.cu.ac.bd/?page_id=2",
+        "reference": "turn48search2"
+      },
+      {
+        "title": "Notice Board – Page 23 – University of Chittagong",
+        "url": "https://cu.ac.bd/notice-board/page/23/",
+        "reference": "turn48search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-006",
+    "name": "Jahangirnagar University",
+    "domain": "www.juniv.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Jahangirnagar University",
+        "url": "https://juniv.edu/?s=admission",
+        "reference": "turn48search4"
+      },
+      {
+        "title": "ADMISSION IS OPEN FOR SUMMER SEMESTER 2026",
+        "url": "https://juniv.edu/file/7800",
+        "reference": "turn48search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-007",
+    "name": "Islamic University, Bangladesh",
+    "domain": "www.iu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Islamic University | Kushtia, Bangladesh",
+        "url": "https://www.apa.iu.ac.bd/index.php/site/notice",
+        "reference": "turn48search5"
+      },
+      {
+        "title": "Islamic University | Kushtia, Bangladesh",
+        "url": "https://www.iu.ac.bd/index.php/site/notice",
+        "reference": "turn48search6"
+      },
+      {
+        "title": "IU | 2025-26",
+        "url": "https://iu.ac.bd/admission/",
+        "reference": "turn48search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-008",
+    "name": "Shahjalal University of Science & Technology",
+    "domain": "www.sust.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Shahjalal University of Science and Technology",
+        "url": "https://www.sust.edu/public/215/general-notice/235/notice/235",
+        "reference": "turn48search8"
+      },
+      {
+        "title": "Shahjalal University of Science and Technology",
+        "url": "https://sust.edu/119/general-notice/215/notice/255",
+        "reference": "turn48search9"
+      },
+      {
+        "title": "Shahjalal University of Science and Technology",
+        "url": "https://www.sust.edu/public/190/content-details/29/5",
+        "reference": "turn48search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-009",
+    "name": "Khulna University",
+    "domain": "www.ku.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Khulna University",
+        "url": "https://ku.ac.bd/notices",
+        "reference": "turn49search0"
+      },
+      {
+        "title": "খুলনা বিশ্ববিদ্যালয় (খুবি) - Khulna University (KU): We Learn to Lead and Live",
+        "url": "https://ku.ac.bd/?page_id=1843",
+        "reference": "turn49search1"
+      },
+      {
+        "title": "Khulna University",
+        "url": "https://ku.ac.bd/news-details/2075",
+        "reference": "turn49search2"
+      },
+      {
+        "title": "Economics Discipline, Khulna University, Khulna",
+        "url": "https://ku.ac.bd/discipline/uploads/noticeboardfiles/MDPS_Admission_2025_2026_Result.pdf",
+        "reference": "turn49search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-010",
+    "name": "National University",
+    "domain": "www.nu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-011",
+    "name": "Bangladesh Open University",
+    "domain": "www.bou.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Bangladesh Open University (BOU)",
+        "url": "https://www.bou.ac.bd/CitizenCharter/SOBCharterInfo",
+        "reference": "turn49search5"
+      },
+      {
+        "title": "Bangladesh Open University (BOU)",
+        "url": "https://bou.ac.bd/NoticeBoard/Admission",
+        "reference": "turn49search6"
+      },
+      {
+        "title": "Bangladesh Open University (BOU)",
+        "url": "https://www.bou.ac.bd/NoticeBoard/SearchAdmission",
+        "reference": "turn49search7"
+      },
+      {
+        "title": "Bangladesh Open University (BOU)",
+        "url": "https://www.bou.ac.bd/public/NoticeBoard/Admission?page=2",
+        "reference": "turn49search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-012",
+    "name": "Bangladesh Medical University",
+    "domain": "www.bsmmu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BSMMU Admission System",
+        "url": "https://forms.bsmmu.ac.bd/nonres_2025/local/admission/",
+        "reference": "turn49search9"
+      },
+      {
+        "title": "BSMMU Admission System",
+        "url": "https://forms.bsmmu.ac.bd/bsmmu_mmp_2024/local/admission/index.php",
+        "reference": "turn49search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-013",
+    "name": "Gazipur Agricultural University",
+    "domain": "gau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "GAU Admission",
+        "url": "https://gau.edu.bd/admission/",
+        "reference": "turn50search0"
+      },
+      {
+        "title": "Gazipur Agricultural University",
+        "url": "https://gau.edu.bd/dint/wp-content/uploads/sites/79/2025/11/Advertisement-Admission-2026.pdf",
+        "reference": "turn50search11"
+      },
+      {
+        "title": "Gazipur Agricultural University",
+        "url": "https://gau.edu.bd/",
+        "reference": "turn50search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-014",
+    "name": "Hajee Mohammad Danesh Science & Technology University",
+    "domain": "www.hstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "HSTU",
+        "url": "https://hstu.ac.bd/admission/index",
+        "reference": "turn50search2"
+      },
+      {
+        "title": "Index of /uploads/admission_2026/",
+        "url": "https://hstu.ac.bd/uploads/admission_2026/",
+        "reference": "turn50search3"
+      },
+      {
+        "title": "HSTU",
+        "url": "https://hstu.ac.bd/admission/faq_2025",
+        "reference": "turn50search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-015",
+    "name": "Mawlana Bhashani Science & Technology University",
+    "domain": "www.mbstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "MSBTU Admission",
+        "url": "https://admission.mbstu.ac.bd/",
+        "reference": "turn50search5"
+      },
+      {
+        "title": "MBSTU - International Students",
+        "url": "https://mbstu.ac.bd/international-students",
+        "reference": "turn50search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-016",
+    "name": "Patuakhali Science And Technology University",
+    "domain": "www.pstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Home - PSTU",
+        "url": "https://admission.pstu.ac.bd/",
+        "reference": "turn50search7"
+      },
+      {
+        "title": "Index - PSTU",
+        "url": "https://admission.pstu.ac.bd/Notices",
+        "reference": "turn50search8"
+      },
+      {
+        "title": "Patuakhali Science and Technology University",
+        "url": "https://pstu.ac.bd/notices?page=2",
+        "reference": "turn50search9"
+      },
+      {
+        "title": "Patuakhali Science and Technology University",
+        "url": "https://pstu.ac.bd/public/notices",
+        "reference": "turn50search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-017",
+    "name": "Sher-e-Bangla Agricultural University",
+    "domain": "www.sau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "::. Sher-e-Bangla Agricultural University .::",
+        "url": "https://www.sau.edu.bd/admission",
+        "reference": "turn51search0"
+      },
+      {
+        "title": "::. Sher-e-Bangla Agricultural University .::",
+        "url": "https://sau.edu.bd/public/index.php/home/notice-detail/1063",
+        "reference": "turn51search1"
+      },
+      {
+        "title": "::. Sher-e-Bangla Agricultural University .::",
+        "url": "https://sau.edu.bd/admission/undergraduate",
+        "reference": "turn51search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-018",
+    "name": "Chittagong University of Engineering & Technology (CUET)",
+    "domain": "www.cuet.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission - CUET",
+        "url": "https://cuet.ac.bd/admission",
+        "reference": "turn51search3"
+      },
+      {
+        "title": "Chittagong University of Engineering & Technology (CUET)",
+        "url": "https://app.cuet.ac.bd/storage/Notices/6931497d31d10.pdf",
+        "reference": "turn51search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-019",
+    "name": "Rajshahi University of Engineering & Technology (RUET)",
+    "domain": "www.ruet.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "RUET-Rajshahi University of Engineering & Technology.",
+        "url": "https://ruet.ac.bd/page/study-expenditure",
+        "reference": "turn51search4"
+      },
+      {
+        "title": "RUET-Rajshahi University of Engineering & Technology.",
+        "url": "https://www.ruet.ac.bd/notice?name=Admission",
+        "reference": "turn51search6"
+      },
+      {
+        "title": "RUET-Rajshahi University of Engineering & Technology.",
+        "url": "https://www.ruet.ac.bd/",
+        "reference": "turn51search7"
+      },
+      {
+        "title": "RUET Admission",
+        "url": "https://admission.ruet.ac.bd/index.html",
+        "reference": "turn51search9"
+      },
+      {
+        "title": "RUET-Rajshahi University of Engineering & Technology.",
+        "url": "https://ruet.ac.bd/notice?name=Admission",
+        "reference": "turn51search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-020",
+    "name": "Khulna University of Engineering & Technology (KUET)",
+    "domain": "www.kuet.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "KUET | UG Admission 2026-27",
+        "url": "https://admission.kuet.ac.bd/",
+        "reference": "turn51search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-021",
+    "name": "Dhaka University of Engineering & Technology (DUET)",
+    "domain": "www.duet.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Notices - Dhaka University of Engineering & Technology, Gazipur.",
+        "url": "https://www.duet.ac.bd/notice/admission-notices?page=1",
+        "reference": "turn52search0"
+      },
+      {
+        "title": "ভর্তির তারিখ ও ফি প্রদান সংক্রান্ত - Dhaka University of Engineering & Technology, Gazipur.",
+        "url": "https://www.duet.ac.bd/notice/admission-notices/2358/%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%96-%E0%A6%93-%E0%A6%AB%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%A8-%E0%A6%B8%E0%A6%82%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4",
+        "reference": "turn52search2"
+      },
+      {
+        "title": "Admission - Dhaka University of Engineering & Technology, Gazipur.",
+        "url": "https://www.duet.ac.bd/admission",
+        "reference": "turn52search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-022",
+    "name": "Noakhali Science & Technology University",
+    "domain": "www.nstu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "NSTU Official Website",
+        "url": "https://nstu.edu.bd/services/viewNotice",
+        "reference": "turn52search7"
+      },
+      {
+        "title": "NSTU Official Website",
+        "url": "https://nstu.edu.bd/services/ViewNoticeDetails/334",
+        "reference": "turn52search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-023",
+    "name": "Jagannath University",
+    "domain": "www.jnu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "JAGANNATH UNIVERSITY",
+        "url": "https://jnu.ac.bd/newsite/newsdetails/138749",
+        "reference": "turn52search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-024",
+    "name": "Comilla University",
+    "domain": "www.cou.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Comilla University | Admission",
+        "url": "https://www.cou.ac.bd/admission",
+        "reference": "turn52search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-025",
+    "name": "Jatiya Kabi Kazi Nazrul Islam University",
+    "domain": "www.jkkniu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",
+        "url": "https://jkkniu.edu.bd/index.php/tuition-fees",
+        "reference": "turn53search0"
+      },
+      {
+        "title": "Notice for Admission | Jatiya Kabi Kazi Nazrul Islam University, Bangladesh.",
+        "url": "https://jkkniu.edu.bd/notice-board/admission",
+        "reference": "turn53search1"
+      },
+      {
+        "title": "Microsoft Word - \u0000°Í¤¿_¨¿°Í¦Ç¶¿Ł¾_2024-2025[1]",
+        "url": "https://jkkniu.edu.bd/uploads/notice/2025-05-31-7345ac_751559368.pdf",
+        "reference": "turn53search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-026",
+    "name": "Chittagong Veterinary and Animal Sciences University",
+    "domain": "www.cvasu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Undergraduate Admission Details | Chattogram Veterinary and Animal Sciences University",
+        "url": "https://cvasu.ac.bd/admission-details/bsc",
+        "reference": "turn53search2"
+      },
+      {
+        "title": "Undergraduate Admission Details | Chattogram Veterinary and Animal Sciences University",
+        "url": "https://www.cvasu.ac.bd/admission-details/bsc",
+        "reference": "turn53search3"
+      },
+      {
+        "title": "Postgraduate Admission Details | Chattogram Veterinary and Animal Sciences University",
+        "url": "https://www.cvasu.ac.bd/admission-details/post_graduate",
+        "reference": "turn53search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-027",
+    "name": "Sylhet Agricultural University",
+    "domain": "www.sau.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "SAU",
+        "url": "https://sau.ac.bd/notice/view_all/notice",
+        "reference": "turn53search5"
+      },
+      {
+        "title": "SAU",
+        "url": "https://sau.ac.bd/notice/view_details/notice/3725",
+        "reference": "turn53search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-028",
+    "name": "Jessore University of Science & Technology",
+    "domain": "www.just.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "JUST | Official Website of Jashore University of Science & Technology",
+        "url": "https://www.just.edu.bd/offices/ints/about",
+        "reference": "turn53search7"
+      },
+      {
+        "title": "JUST | Official Website of Jashore University of Science & Technology",
+        "url": "https://www.just.edu.bd/offices/ints",
+        "reference": "turn53search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-029",
+    "name": "Pabna University of Science and Technology",
+    "domain": "www.pust.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Pabna University of Science and Technology",
+        "url": "https://pust.ac.bd/admission",
+        "reference": "turn54search0"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-030",
+    "name": "Begum Rokeya University, Rangpur",
+    "domain": "www.brur.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Begum Rokeya University, Rangpur -",
+        "url": "https://brur.ac.bd/admission/undergraduate",
+        "reference": "turn54search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-031",
+    "name": "Bangladesh University of Professionals",
+    "domain": "www.bup.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Bangladesh University of Professionals | Notice",
+        "url": "https://bup.edu.bd/notice/all",
+        "reference": "turn54search2"
+      },
+      {
+        "title": "Bangladesh University of Professionals | Notice",
+        "url": "https://www.bup.edu.bd/notice/all",
+        "reference": "turn54search3"
+      },
+      {
+        "title": "Bangladesh University of Professionals | Notice",
+        "url": "https://www.bup.edu.bd/public/notice/all",
+        "reference": "turn54search4"
+      },
+      {
+        "title": "Bangladesh University of Professionals (BUP)",
+        "url": "https://admission.bup.edu.bd/Upload/Notices/Admission%20Notice%20%28May-2026%29.pdf",
+        "reference": "turn54search8"
+      },
+      {
+        "title": "Bangladesh University of Professionals (BUP)",
+        "url": "https://bup.edu.bd/public/upload/news/20251008_1759890482.pdf",
+        "reference": "turn54search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-032",
+    "name": "Gopalganj Science & Technology University",
+    "domain": "www.bsmrstu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Account Suspended",
+        "url": "https://www.bsmrstu.edu.bd/dev/sidebar_items/uploaded_files/Marquee/Admission%20Circular%202019.pdf",
+        "reference": "turn54search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-033",
+    "name": "Bangladesh University of Textiles",
+    "domain": "www.butex.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Bangladesh University of Textiles | UNDERGRADUATE ADMISSION",
+        "url": "https://newsite.butex.edu.bd/admission_new/undergraduate-admission",
+        "reference": "turn55search0"
+      },
+      {
+        "title": "Bangladesh University of Textiles",
+        "url": "https://www.butex.edu.bd/wp-content/uploads/2026/01/Admission-From-of-BSc-in-Textile-Engineering-L1-T1-.pdf",
+        "reference": "turn55search12"
+      },
+      {
+        "title": "বাংলাদেশ টেক্সটাইল বিশ্ববিদ্যালয়",
+        "url": "https://www.butex.edu.bd/wp-content/uploads/2024/04/Admission-Notice-2024.pdf",
+        "reference": "turn55search13"
+      },
+      {
+        "title": "Bangladesh University of Textiles | Home Page",
+        "url": "https://newsite.butex.edu.bd/",
+        "reference": "turn55search1"
+      },
+      {
+        "title": "Admission Notice: MSc in Textile Engineering Program – BUTEX",
+        "url": "https://www.butex.edu.bd/admission-notice-msc-in-textile-engineering-program-3/",
+        "reference": "turn55search2"
+      },
+      {
+        "title": "Home Page – BUTEX",
+        "url": "https://www.butex.edu.bd/homepage/?p=gwcpnetdrueheto",
+        "reference": "turn55search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-034",
+    "name": "University of Barishal",
+    "domain": "www.bu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees | University of Barishal",
+        "url": "https://bu.ac.bd/tuition-fees",
+        "reference": "turn55search4"
+      },
+      {
+        "title": "Undergraduate Admission 2025-2026 - Home",
+        "url": "https://admission.bu.ac.bd/",
+        "reference": "turn55search5"
+      },
+      {
+        "title": "Notice for Admission | University of Barishal",
+        "url": "https://www.bu.ac.bd/notice-board/admission",
+        "reference": "turn55search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-035",
+    "name": "Rangamati Science and Technology University",
+    "domain": "www.rmstu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-036",
+    "name": "Bangladesh Maritime University",
+    "domain": "bmu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission | Bangladesh Maritime University",
+        "url": "https://bmu.edu.bd/admission",
+        "reference": "turn55search7"
+      },
+      {
+        "title": "২০২৬-২৭ শিক্ষাবর্ষে স্নাতক পর্যায়ের ভর্তি পরীক্ষার সময়সূচী আগামী ২৯ ও ৩০ ডিসেম্বর ২০২৬ তারিখ (মঙ্গলবার ও বুধবার) নির্ধারিত হয়েছে। | Bangladesh Maritime University",
+        "url": "https://bmu.edu.bd/notice-details/NOTICE/58",
+        "reference": "turn55search8"
+      },
+      {
+        "title": "BMU:::Bangladesh Maritime University",
+        "url": "https://old-web.bmu.edu.bd/content/fee-structure-3",
+        "reference": "turn55search9"
+      },
+      {
+        "title": "BMU -",
+        "url": "https://applyonline.bmu.edu.bd/Admission/NoticeAll",
+        "reference": "turn55search10"
+      },
+      {
+        "title": "BMU - Admission",
+        "url": "https://applyonline.bmu.edu.bd/",
+        "reference": "turn55search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-037",
+    "name": "Islamic Arabic University",
+    "domain": "www.iau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Islamic Arabic University – IAU",
+        "url": "https://iau.edu.bd/",
+        "reference": "turn56search0"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-038",
+    "name": "Chittagong Medical University",
+    "domain": "www.cmu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Chittagong Medical University",
+        "url": "https://www.cmu.edu.bd/notices?page=2",
+        "reference": "turn56search1"
+      },
+      {
+        "title": "CMU Admission",
+        "url": "https://admission.cmu.edu.bd/Admission/Home",
+        "reference": "turn56search2"
+      },
+      {
+        "title": "Chittagong Medical University",
+        "url": "https://www.cmu.edu.bd/notices?page=13",
+        "reference": "turn56search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-039",
+    "name": "Rajshahi Medical University",
+    "domain": "www.rmu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission – Rajshahi Medical University",
+        "url": "https://rmu.edu.bd/admission/",
+        "reference": "turn56search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-040",
+    "name": "Rabindra University, Bangladesh",
+    "domain": "www.rub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Home :: Rabindra University, Bangladesh",
+        "url": "https://rub.ac.bd/",
+        "reference": "turn56search5"
+      },
+      {
+        "title": "Home :: Rabindra University, Bangladesh",
+        "url": "https://www.rub.ac.bd/gst-admission.php",
+        "reference": "turn56search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-041",
+    "name": "University of Frontier Technology, Bangladesh",
+    "domain": "www.uftb.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Notice",
+        "url": "https://uftb.ac.bd/notice/admission-notice",
+        "reference": "turn57search0"
+      },
+      {
+        "title": "Notice | UFTB - Admission Management System",
+        "url": "https://admission.uftb.ac.bd/notice-detail/27",
+        "reference": "turn57search1"
+      },
+      {
+        "title": "রেজিস্ট্রার কার্যালয়",
+        "url": "https://uftb.ac.bd/uploads/topics/17538780681873.pdf",
+        "reference": "turn57search7"
+      },
+      {
+        "title": "Site pages",
+        "url": "https://uftb.ac.bd/site-pages",
+        "reference": "turn57search2"
+      },
+      {
+        "title": "Home | University of Frontier Technology, Bangladesh",
+        "url": "https://edte.uftb.ac.bd/",
+        "reference": "turn57search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-042",
+    "name": "Netrokona University",
+    "domain": "www.shu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-043",
+    "name": "Khulna Agricultural University",
+    "domain": "www.kau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "KHULNA AGRICULTURAL UNIVERSITY,",
+        "url": "https://kau.edu.bd/wp-content/uploads/2025/08/ilovepdf_merged-4.pdf",
+        "reference": "turn57search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-044",
+    "name": "Jamalpur Science and Technology University",
+    "domain": "bsfmstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "JSTU :: Home",
+        "url": "https://bsfmstu.ac.bd/index.php/portal/notices/notice/all.php",
+        "reference": "turn57search4"
+      },
+      {
+        "title": "JSTU | 2025-2026",
+        "url": "https://bsfmstu.ac.bd/finaladmission/index.php/preliminary/finalapply.php",
+        "reference": "turn57search5"
+      },
+      {
+        "title": "JSTU",
+        "url": "https://bsfmstu.ac.bd/index.php/portal/administrations/about.php",
+        "reference": "turn57search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-045",
+    "name": "Sylhet Medical University, Sylhet",
+    "domain": "www.bsfmmu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-046",
+    "name": "Aviation And Aerospace University, Bangladesh",
+    "domain": "www.aaub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "AAUB || অ্যাভিয়েশন অ্যান্ড অ্যারোস্পেস বিশ্ববিদ্যালয়, বাংলাদেশ -এ  স্নাতক ও স্নাতকোত্তর শ্রেণির ভর্তি-সংক্রান্ত তথ্য",
+        "url": "https://aaub.edu.bd/content/admission-fees",
+        "reference": "turn58search0"
+      },
+      {
+        "title": "AAUB Prospectus",
+        "url": "https://www.aaub.edu.bd/public/storage/upload/publicationPDF/250703091501-9614AAUB-Prospectus.pdf",
+        "reference": "turn58search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-047",
+    "name": "Chandpur Science and Technology University",
+    "domain": "www.cstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-049",
+    "name": "Hobiganj Agricultural University",
+    "domain": "www.hau.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Notice | UMS-Habiganj Agricultural University",
+        "url": "https://hau.ac.bd/public/notice",
+        "reference": "turn58search2"
+      },
+      {
+        "title": "Home | UMS-Habiganj Agricultural University",
+        "url": "https://www.hau.ac.bd/",
+        "reference": "turn58search3"
+      },
+      {
+        "title": "Bachelor Admission | UMS-Habiganj Agricultural University",
+        "url": "https://www.hau.ac.bd/bachelor-admission",
+        "reference": "turn58search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-050",
+    "name": "Khulna Medical University, Khulna",
+    "domain": "www.shmu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-051",
+    "name": "Kurigram Agricultural University",
+    "domain": "www.kuriau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "At A Glance - Kurigram Agricultural University",
+        "url": "https://kuriau.edu.bd/at-a-glance",
+        "reference": "turn59search4"
+      },
+      {
+        "title": "Latest announcements and notice - Kurigram Agricultural University",
+        "url": "https://kuriau.edu.bd/notice-and-announcements",
+        "reference": "turn59search5"
+      },
+      {
+        "title": "Undergraduate Admission Information - Kurigram Agricultural University",
+        "url": "https://www.kuriau.edu.bd/undergraduate-admission-information",
+        "reference": "turn59search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-052",
+    "name": "Sunamganj Science and Technology University",
+    "domain": "www.sstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Sunamgonj Science and Technology University",
+        "url": "https://sstu.ac.bd/",
+        "reference": "turn59search1"
+      },
+      {
+        "title": "Sunamgonj Science and Technology University",
+        "url": "https://sstu.ac.bd/notice/all",
+        "reference": "turn59search2"
+      },
+      {
+        "title": "Sunamgonj Science and Technology University",
+        "url": "https://sstu.ac.bd/admission-test",
+        "reference": "turn59search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-053",
+    "name": "Pirojpur Science & Technology University",
+    "domain": "www.prstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "PRSTU | Admission",
+        "url": "https://admission.prstu.ac.bd/",
+        "reference": "turn59search0"
+      },
+      {
+        "title": "CamScanner 16-03-2026 14.36",
+        "url": "https://prstu.ac.bd/notice_document/CamScanner_16-03-2026_14_36.pdf",
+        "reference": "turn59search7"
+      },
+      {
+        "title": "রেজিস্ট্রার দপ্তর",
+        "url": "https://prstu.ac.bd/notice_document/%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BE%E0%A7%9F_%E0%A6%9A%E0%A7%82%E0%A7%9C%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4_%E0%A6%AD%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B0_%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BF_%281%29.pdf",
+        "reference": "turn59search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-056",
+    "name": "Bogra Science and Technology University",
+    "domain": "bstu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "University of Bogura",
+        "url": "https://bstu.ac.bd/",
+        "reference": "turn60search0"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-057",
+    "name": "Dhaka Central University",
+    "domain": "dcu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "ঢাকা সেন্ট্রাল ইউনিভার্সিটি — ডিসিইউ",
+        "url": "https://www.dcu.ac.bd/?lang=bn",
+        "reference": "turn60search1"
+      },
+      {
+        "title": "Students | Dhaka Central University",
+        "url": "https://dcu.ac.bd/students",
+        "reference": "turn60search2"
+      },
+      {
+        "title": "About | Dhaka Central University",
+        "url": "https://dcu.ac.bd/about",
+        "reference": "turn60search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-001",
+    "name": "North South University",
+    "domain": "www.northsouth.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition and Other Fees | North South University",
+        "url": "https://www.northsouth.edu/tuition-fees/",
+        "reference": "turn60search3"
+      },
+      {
+        "title": "Tuition Fee",
+        "url": "https://admissions.northsouth.edu/index.php/tuition",
+        "reference": "turn60search4"
+      },
+      {
+        "title": "North South University — Admissions",
+        "url": "https://admissions.northsouth.edu/",
+        "reference": "turn60search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-002",
+    "name": "University of Science & Technology Chittagong",
+    "domain": "www.ustc.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-003",
+    "name": "Independent University, Bangladesh",
+    "domain": "www.iub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Recently added",
+        "url": "https://www.ar.iub.edu.bd/xmlui/handle/11348/4/recent-submissions",
+        "reference": "turn61search0"
+      },
+      {
+        "title": "IUB Publication",
+        "url": "https://www.ar.iub.edu.bd/xmlui/handle/11348/4",
+        "reference": "turn61search1"
+      },
+      {
+        "title": "IUB",
+        "url": "https://iras.iub.edu.bd/admission/ApplicationForm.aspx",
+        "reference": "turn61search2"
+      },
+      {
+        "title": "✔ iub admission",
+        "url": "https://admission.iub.edu.bd/",
+        "reference": "turn61search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-004",
+    "name": "Central Women's University",
+    "domain": "www.cwu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission | Central Women's University",
+        "url": "https://cwu.edu.bd/admission",
+        "reference": "turn61search4"
+      },
+      {
+        "title": "Central Women's University | Tuition and other fees",
+        "url": "https://www.cwu.edu.bd/tuition",
+        "reference": "turn61search5"
+      },
+      {
+        "title": "Tuition and Other Fees | Central Women's University",
+        "url": "https://www.cwu.edu.bd/admission/tuition-fees",
+        "reference": "turn61search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-005",
+    "name": "International University of Business Agriculture & Technology",
+    "domain": "www.iubat.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission - IUBAT",
+        "url": "https://iubat.edu/admission/",
+        "reference": "turn61search10"
+      },
+      {
+        "title": "Admission – IUBAT",
+        "url": "https://iubat.edu/iubat_admission/",
+        "reference": "turn61search11"
+      },
+      {
+        "title": "IUBAT Payment",
+        "url": "https://www.iubat.edu/payment/",
+        "reference": "turn61search12"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-006",
+    "name": "International Islamic University Chittagong",
+    "domain": "www.iiuc.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Instructions & Requirements (Bangla) - International Islamic University Chittagong | IIUC",
+        "url": "https://www.iiuc.ac.bd/web/admission/instruction-bn",
+        "reference": "turn61search7"
+      },
+      {
+        "title": "Admission Advertisements | International Islamic University Chittagong",
+        "url": "https://web.iiuc.ac.bd/program/advertisements",
+        "reference": "turn61search8"
+      },
+      {
+        "title": "International Islamic University Chittagong",
+        "url": "https://portal.iiuc.ac.bd/assets/admission/instruction/55Online-Admision-Instruction-Autumn-2026.pdf",
+        "reference": "turn61search13"
+      },
+      {
+        "title": "Admission Instructions & Requirements (Bangla) - International Islamic University Chittagong | IIUC",
+        "url": "https://www.iiuc.ac.bd/web/admission/instruction-bn?tab=masters",
+        "reference": "turn61search9"
+      },
+      {
+        "title": "Fee Structure for Bachelor Programs",
+        "url": "https://web.iiuc.ac.bd/home/show-pdf/files4dZfTMdaau8PzjIZ8h9RFEE-STRUCTURE-Autumn-2025-BachelorT4CIV47CEU5qOj2ShAtD",
+        "reference": "turn61search14"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-007",
+    "name": "Ahsanullah University of Science and Technology",
+    "domain": "www.aust.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Undergraduate Admission – AUST::Admission",
+        "url": "https://admission.aust.edu/ug-admission/",
+        "reference": "turn62search0"
+      },
+      {
+        "title": "Fee Structure – Engg./Arch. – AUST::Admission",
+        "url": "https://admission.aust.edu/fee-structure-engg-arch/",
+        "reference": "turn62search1"
+      },
+      {
+        "title": "Inner",
+        "url": "https://admission.aust.edu/wp-content/uploads/2025/12/Spring-2025-Admission-Prospectus-05-12-2025.pdf",
+        "reference": "turn62search8"
+      },
+      {
+        "title": "Fees – AUST::Admission",
+        "url": "https://admission.aust.edu/fees/",
+        "reference": "turn62search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-008",
+    "name": "American International University-Bangladesh",
+    "domain": "www.aiub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Home | AIUB",
+        "url": "https://www.aiub.ac.bd/",
+        "reference": "turn62search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-009",
+    "name": "East West University",
+    "domain": "www.ewubd.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Undergraduate Tuition Fees",
+        "url": "https://www.ewubd.edu/undergraduate-tuition-fees",
+        "reference": "turn62search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-010",
+    "name": "University of Asia Pacific",
+    "domain": "www.uap-bd.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees - Admission - CSE UAP",
+        "url": "https://cse.uap-bd.edu/designs/admission/2/",
+        "reference": "turn62search3"
+      },
+      {
+        "title": "UAP - Admission",
+        "url": "https://admission.uap-bd.edu/Admission/Home.aspx",
+        "reference": "turn62search4"
+      },
+      {
+        "title": "UAP - Select Program",
+        "url": "https://admission.uap-bd.edu/Admission/Candidate/SelectProgramV3.aspx",
+        "reference": "turn62search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-011",
+    "name": "Gono Bishwabidyalay",
+    "domain": "www.gonouniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition and Other Fees - Gono BishwabidyalayGono Bishwabidyalay",
+        "url": "https://gonouniversity.edu.bd/admission/tuition-and-other-fees/",
+        "reference": "turn63search0"
+      },
+      {
+        "title": "Fill-up the Form After Paying Semester Fees – Online Admission System",
+        "url": "https://admission.gonouniversity.edu.bd/tuition-fee/",
+        "reference": "turn63search6"
+      },
+      {
+        "title": "Gono Bishwabidyalay - A University with a differenceGono Bishwabidyalay | A University with a difference",
+        "url": "https://gonouniversity.edu.bd/",
+        "reference": "turn63search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-012",
+    "name": "The People's University of Bangladesh",
+    "domain": "www.pub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees - The People's University of Bangladesh",
+        "url": "https://www.pub.ac.bd/tuition-fees/",
+        "reference": "turn63search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-013",
+    "name": "Asian University of Bangladesh",
+    "domain": "www.aub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "AUB - Online Admission",
+        "url": "https://admission.aub.ac.bd/",
+        "reference": "turn63search1"
+      },
+      {
+        "title": "Tuition Fees Calculator | Asian University of Bangladesh (AUB)",
+        "url": "https://aub.ac.bd/tuition-fees-calculator",
+        "reference": "turn63search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-014",
+    "name": "Dhaka International University",
+    "domain": "www.diu.ac",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission & Information - DIU",
+        "url": "https://admission.diu.ac/?trk=public_post_reshare-text",
+        "reference": "turn63search4"
+      },
+      {
+        "title": "DIU | Dhaka International University",
+        "url": "https://diu.ac/admission-process",
+        "reference": "turn63search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-015",
+    "name": "Manarat International University",
+    "domain": "www.manarat.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Home",
+        "url": "https://admission.manarat.ac.bd/Admission/Home.aspx",
+        "reference": "turn64search1"
+      },
+      {
+        "title": "Department of English",
+        "url": "https://english.manarat.ac.bd/admission-and-fees",
+        "reference": "turn64search2"
+      },
+      {
+        "title": "Department of Business Administration",
+        "url": "https://www.dba.manarat.ac.bd/admission-and-fees",
+        "reference": "turn64search3"
+      },
+      {
+        "title": "Department of Islamic Studies (DIS)",
+        "url": "https://dis.manarat.ac.bd/admission-and-fees",
+        "reference": "turn64search4"
+      },
+      {
+        "title": "MANARAT INTERNATIONAL UNIVERSITY",
+        "url": "https://law.manarat.ac.bd/storage/Notice/1776352493.pdf",
+        "reference": "turn64search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-016",
+    "name": "BRAC University",
+    "domain": "www.bracu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition and Fees | BRAC University",
+        "url": "https://www.bracu.ac.bd/admissions/tuition-and-fees",
+        "reference": "turn64search5"
+      },
+      {
+        "title": "UG Domestic Applicant | BRAC University",
+        "url": "https://www.bracu.ac.bd/ug-domestic-applicant",
+        "reference": "turn64search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-017",
+    "name": "Bangladesh University",
+    "domain": "www.bu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Permanent Campus:",
+        "url": "https://bu.edu.bd/wp-content/uploads/2025/11/Waiver-Sheet-2026Updated-Online-upload-1-1-1.pdf",
+        "reference": "turn64search12"
+      },
+      {
+        "title": "Bangladesh University",
+        "url": "https://www.bu.edu.bd/syllabus-and-course-fees/?degree=BSc+%28Hons%29+in+Mathematics",
+        "reference": "turn64search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-018",
+    "name": "Leading University",
+    "domain": "www.lus.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-019",
+    "name": "BGC Trust University Bangladesh",
+    "domain": "www.bgctub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BGC Trust University Bangladesh",
+        "url": "https://bgctub.ac.bd/php_files/contents/contents.php?cmd=page&contid=6",
+        "reference": "turn65search0"
+      },
+      {
+        "title": "BGC Trust University Bangladesh",
+        "url": "https://bgctub.ac.bd/php_files/contents/contents.php?cm=detail&cmd=notice&news_id=1823&ntype=&prog=",
+        "reference": "turn65search1"
+      },
+      {
+        "title": "BGC Trust University Bangladesh",
+        "url": "https://bgctub.ac.bd/php_files/contents/contents.php?cmd=page&contid=5",
+        "reference": "turn65search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-020",
+    "name": "Sylhet International University",
+    "domain": "www.siu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "SIU | Tuition fee",
+        "url": "https://www.siu.edu.bd/admission/tuition-fees",
+        "reference": "turn65search5"
+      },
+      {
+        "title": "SIU | Undergraduate",
+        "url": "https://www.siu.edu.bd/admission/undergraduate",
+        "reference": "turn65search6"
+      },
+      {
+        "title": "SIU | Department Of ECE",
+        "url": "https://siu.edu.bd/department/electronics-and-communication-engineering",
+        "reference": "turn65search7"
+      },
+      {
+        "title": "SIU | Syllabus English",
+        "url": "https://siu.edu.bd/syllabus/english",
+        "reference": "turn65search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-021",
+    "name": "University of Development Alternative",
+    "domain": "www.uoda.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees",
+        "url": "https://uoda.edu.bd/admission/tuition-fees/",
+        "reference": "turn65search3"
+      },
+      {
+        "title": "University of Development Alternative: |U|O|D|A|",
+        "url": "https://uoda.edu.bd/",
+        "reference": "turn65search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-022",
+    "name": "Premier University",
+    "domain": "www.puc.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Premier University | Center of Exellence for Quality Learning",
+        "url": "https://www.puc.ac.bd/",
+        "reference": "turn65search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-023",
+    "name": "Southeast University",
+    "domain": "www.seu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Prospectus New  Summer 26 new",
+        "url": "https://seu.edu.bd/uploads/media/2026/03/Admission_Prospectus_summer_2026_.pdf",
+        "reference": "turn66search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-024",
+    "name": "Daffodil International University",
+    "domain": "www.daffodilvarsity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Daffodil International University: Top Private University in Bangladesh",
+        "url": "https://daffodilvarsity.edu.bd/tuition-fees",
+        "reference": "turn66search0"
+      },
+      {
+        "title": "Daffodil International University: Top Private University in Bangladesh",
+        "url": "https://daffodilvarsity.edu.bd/department/CSE/local-tuition?model_name=Tuition",
+        "reference": "turn66search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-025",
+    "name": "Stamford University Bangladesh",
+    "domain": "www.stamforduniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Stamford University Bangladesh",
+        "url": "https://cromwellwilkes.stamforduniversity.edu.bd/index.php/stamford/details/27",
+        "reference": "turn66search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-026",
+    "name": "State University of Bangladesh (SUB)",
+    "domain": "www.sub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "B.Sc. in Computer Science & Engineering | CSE Department | SUB State University of Bangladesh",
+        "url": "https://sub.ac.bd/program/computer-science-and-engineering/bsc-in-computer-science-engineering",
+        "reference": "turn66search2"
+      },
+      {
+        "title": "Tuition Fees - State University of Bangladesh",
+        "url": "https://www.sub.ac.bd/tuition-fee",
+        "reference": "turn66search3"
+      },
+      {
+        "title": "Tuition Fees - State University of Bangladesh",
+        "url": "https://sub.ac.bd/tuition-fee",
+        "reference": "turn66search4"
+      },
+      {
+        "title": "Admission - State University of Bangladesh",
+        "url": "https://www.sub.ac.bd/admission",
+        "reference": "turn66search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-027",
+    "name": "City University",
+    "domain": "www.cityuniversity.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "City University",
+        "url": "https://cityuniversity.ac.bd/",
+        "reference": "turn67search0"
+      },
+      {
+        "title": "City University",
+        "url": "https://www.cityuniversity.ac.bd/tution-fees",
+        "reference": "turn67search1"
+      },
+      {
+        "title": "City University",
+        "url": "https://cityuniversity.ac.bd/all-notice",
+        "reference": "turn67search2"
+      },
+      {
+        "title": "City University",
+        "url": "https://www.cityuniversity.ac.bd/undergraduate",
+        "reference": "turn67search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-028",
+    "name": "Prime University",
+    "domain": "www.primeuniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "PRIME UNIVERSITY",
+        "url": "https://primeuniversity.edu.bd/file/crhp_details/1694597431.pdf",
+        "reference": "turn67search9"
+      },
+      {
+        "title": "<visual_element id=\"e1\">",
+        "url": "https://primeuniversity.edu.bd/file/crhp_details/1706003925.pdf",
+        "reference": "turn67search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-029",
+    "name": "Northern University Bangladesh",
+    "domain": "www.nub.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Northern University > Apply Online",
+        "url": "https://nub.ac.bd/admission/w2zuickf/apply-online",
+        "reference": "turn67search4"
+      },
+      {
+        "title": "Northern University > Admission Information",
+        "url": "https://www.nub.ac.bd/admission/uy4d8iaf/admission-information",
+        "reference": "turn67search5"
+      },
+      {
+        "title": "Northern University > Prospective Students",
+        "url": "https://nub.ac.bd/prospective_students",
+        "reference": "turn67search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-030",
+    "name": "Southern University Bangladesh",
+    "domain": "www.southern.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Southern University Bangladesh",
+        "url": "https://www.southern.edu.bd/courses.php",
+        "reference": "turn67search7"
+      },
+      {
+        "title": "Southern University Bangladesh",
+        "url": "https://www.southern.edu.bd/apply.php",
+        "reference": "turn67search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-031",
+    "name": "Green University of Bangladesh",
+    "domain": "www.green.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "GUB - Select Programs",
+        "url": "https://applyonline.green.edu.bd/admission/Candidate/SelectProgramBachelor.aspx?ecat=4",
+        "reference": "turn68search0"
+      },
+      {
+        "title": "GUB | Green University of Bangladesh",
+        "url": "https://green.edu.bd/local-tuition-fee",
+        "reference": "turn68search1"
+      },
+      {
+        "title": "GUB | Green University of Bangladesh",
+        "url": "https://green.edu.bd/MAIN-SITE-GUB/public/payment-procedure",
+        "reference": "turn68search2"
+      },
+      {
+        "title": "GUB | Green University of Bangladesh",
+        "url": "https://green.edu.bd/admission-faq",
+        "reference": "turn68search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-032",
+    "name": "Pundra University of Science & Technology",
+    "domain": "www.pundrauniversity.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BANGLA",
+        "url": "https://pundrauniversity.ac.bd/programs/bangla",
+        "reference": "turn68search9"
+      },
+      {
+        "title": "EEE",
+        "url": "https://www.pundrauniversity.ac.bd/programs/eee",
+        "reference": "turn68search10"
+      },
+      {
+        "title": "Notice",
+        "url": "https://pundrauniversity.ac.bd/notice",
+        "reference": "turn68search11"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-033",
+    "name": "World University of Bangladesh",
+    "domain": "www.wub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "World University of Bangladesh",
+        "url": "https://admission.wub.edu.bd/admission/tuition_fees",
+        "reference": "turn68search4"
+      },
+      {
+        "title": "World University of Bangladesh",
+        "url": "https://admission.wub.edu.bd/",
+        "reference": "turn68search5"
+      },
+      {
+        "title": "World University of Bangladesh",
+        "url": "https://admission.wub.edu.bd/admission/",
+        "reference": "turn68search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-034",
+    "name": "Shanto-Mariam University of Creative Technology",
+    "domain": "www.smuct.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Fees & Other’s – Most popular university in Bangladesh",
+        "url": "https://smuct.ac.bd/english/fees-and-others/",
+        "reference": "turn68search7"
+      },
+      {
+        "title": "Tuition Fees – Most popular university in Bangladesh",
+        "url": "https://smuct.ac.bd/dba/tuition-fees/",
+        "reference": "turn68search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-035",
+    "name": "The Millennium University",
+    "domain": "www.themillenniumuniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "T M U",
+        "url": "https://www.themillenniumuniversity.edu.bd/program_cost.php",
+        "reference": "turn69search0"
+      },
+      {
+        "title": "The Millennium University | LL.B",
+        "url": "https://www.themillenniumuniversity.edu.bd/llb.php",
+        "reference": "turn69search1"
+      },
+      {
+        "title": "The Millennium University | BBA",
+        "url": "https://www.themillenniumuniversity.edu.bd/mba.php",
+        "reference": "turn69search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-036",
+    "name": "Eastern University",
+    "domain": "www.easternuni.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Information | Eastern University Bangladesh",
+        "url": "https://www.easternuni.edu.bd/admission",
+        "reference": "turn69search3"
+      },
+      {
+        "title": "Tuition and Fees for Native Students | Eastern University",
+        "url": "https://www.easternuni.edu.bd/admission/tuition-fees",
+        "reference": "turn69search4"
+      },
+      {
+        "title": "Tuition Fees in BDT",
+        "url": "https://www.easternuni.edu.bd/assets/Faculty/Brocheure_BBA_Islamic.pdf",
+        "reference": "turn69search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-037",
+    "name": "Metropolitan University",
+    "domain": "www.metrouni.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Metropolitan University | Education. Not Just a Degree.",
+        "url": "https://metrouni.edu.bd/sites/admission/programme-fee-structure",
+        "reference": "turn69search5"
+      },
+      {
+        "title": "Metropolitan University | Education. Not Just a Degree.",
+        "url": "https://metrouni.edu.bd/index.php/sites/department-of-computer-science-engineering/b-sc-in-cse",
+        "reference": "turn69search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-038",
+    "name": "Uttara University",
+    "domain": "www.uttarauniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuitions & Fees | Uttara University, Bangladesh",
+        "url": "https://uttarauniversity.edu.bd/tuition-fees/",
+        "reference": "turn69search7"
+      },
+      {
+        "title": "Tuitions & Fees | Uttara University, Bangladesh",
+        "url": "https://www.uttarauniversity.edu.bd/tuition-fees/",
+        "reference": "turn69search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-039",
+    "name": "United International University",
+    "domain": "www.uiu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees & Waivers - United International University (UIU)",
+        "url": "https://www.uiu.ac.bd/admission/tuition-fees-payment-policies/tuition-fees-waiver/",
+        "reference": "turn70search0"
+      },
+      {
+        "title": "Date of Admission Test - United International University (UIU)",
+        "url": "https://www.uiu.ac.bd/admission/admission-notice/",
+        "reference": "turn70search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-040",
+    "name": "University of South Asia",
+    "domain": "www.southasiauni.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "University of South Asia",
+        "url": "https://southasiauni.ac.bd/tuition-fees",
+        "reference": "turn70search2"
+      },
+      {
+        "title": "University of South Asia",
+        "url": "https://southasiauni.ac.bd/at-a-glance",
+        "reference": "turn70search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-041",
+    "name": "Victoria University of Bangladesh",
+    "domain": "www.vub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Victoria University of Bangladesh",
+        "url": "https://vub.edu.bd/vubnx/tuition-fee.php",
+        "reference": "turn70search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-042",
+    "name": "Bangladesh University of Business & Technology (BUBT)",
+    "domain": "www.bubt.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BUBT - Online Application",
+        "url": "https://www.bubt.edu.bd/admission",
+        "reference": "turn70search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-044",
+    "name": "University of Information Technology & Sciences",
+    "domain": "www.uits.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "University of Inform",
+        "url": "https://uits.edu.bd/wp-content/uploads/2023/09/CSE-010.pdf",
+        "reference": "turn71search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-045",
+    "name": "Primeasia University",
+    "domain": "www.primeasia.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission & Tuition Fees - Primeasia University",
+        "url": "https://primeasia.edu.bd/admission/admission-tuition-fees/",
+        "reference": "turn71search0"
+      },
+      {
+        "title": "Admission - Primeasia University",
+        "url": "https://primeasia.edu.bd/admission/",
+        "reference": "turn71search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-046",
+    "name": "Royal University of Dhaka",
+    "domain": "www.royal.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Fees & Payments - Royal University Of Dhaka (RUD)",
+        "url": "https://www.royal.edu.bd/fees-payments/",
+        "reference": "turn71search1"
+      },
+      {
+        "title": "Home - Royal University Of Dhaka (RUD)",
+        "url": "https://www.royal.edu.bd/",
+        "reference": "turn71search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-047",
+    "name": "University of Liberal Arts Bangladesh",
+    "domain": "www.ulab.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admissions",
+        "url": "https://admissions.ulab.edu.bd/?a=4229622",
+        "reference": "turn71search2"
+      },
+      {
+        "title": "Admission and Tuition | University of Liberal Arts Bangladesh",
+        "url": "https://ulab.edu.bd/admission-and-tuition",
+        "reference": "turn71search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-048",
+    "name": "Atish Dipankar University of Science & Technology",
+    "domain": "www.adust.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "A D U S T | ATISH DIPANKAR UNIVERSITY",
+        "url": "https://www.adust.edu.bd/",
+        "reference": "turn72search0"
+      },
+      {
+        "title": "A D U S T | ATISH DIPANKAR UNIVERSITY",
+        "url": "https://www.adust.edu.bd/payment-procedure",
+        "reference": "turn72search1"
+      },
+      {
+        "title": "A D U S T | ATISH DIPANKAR UNIVERSITY",
+        "url": "https://adust.edu.bd/",
+        "reference": "turn72search2"
+      },
+      {
+        "title": "A D U S T | ATISH DIPANKAR UNIVERSITY",
+        "url": "https://www.adust.edu.bd/?action=pages&pageId=page-10001",
+        "reference": "turn72search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-049",
+    "name": "Bangladesh Islami University",
+    "domain": "www.biu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Bangladesh Islami University (BIU)",
+        "url": "https://biu.ac.bd/?page_id=264",
+        "reference": "turn72search4"
+      },
+      {
+        "title": "Bangladesh Islami University (BIU)",
+        "url": "https://biu.ac.bd/?page_id=979",
+        "reference": "turn72search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-050",
+    "name": "ASA University Bangladesh",
+    "domain": "www.asaub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "ASA University Bangladesh",
+        "url": "https://www.asaub.edu.bd/financial_info.php",
+        "reference": "turn72search6"
+      },
+      {
+        "title": "ASAUB | Home",
+        "url": "https://www.asaub.edu.bd/english/Tuition%20Fees%20and%20Waiver.php",
+        "reference": "turn72search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-051",
+    "name": "East Delta University",
+    "domain": "www.eastdelta.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "ADMISSIONS OPEN",
+        "url": "https://admissions.eastdelta.edu.bd/",
+        "reference": "turn72search8"
+      },
+      {
+        "title": "ADVISING FALL'26",
+        "url": "https://advising.eastdelta.edu.bd/",
+        "reference": "turn72search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-053",
+    "name": "Varendra University",
+    "domain": "www.vu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Varendra University :: UGC Approved Private University in Rajshahi",
+        "url": "https://vu.edu.bd/",
+        "reference": "turn73search0"
+      },
+      {
+        "title": "Varendra University :: UGC Approved Private University in Rajshahi",
+        "url": "https://www.vu.edu.bd/public/international/tuition-fees",
+        "reference": "turn73search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-054",
+    "name": "Hamdard University Bangladesh",
+    "domain": "www.hamdarduniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Hamdard University Bangladesh",
+        "url": "https://www.hamdarduniversity.edu.bd/admission/tuition_fees",
+        "reference": "turn73search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-055",
+    "name": "BGMEA University of Fashion & Technology(BUFT)",
+    "domain": "www.buft.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BGMEA University of Fashion & Technology (BUFT)",
+        "url": "https://www.buft.edu.bd/tuition-fees",
+        "reference": "turn73search3"
+      },
+      {
+        "title": "BUFT - Admission",
+        "url": "https://admission.buft.edu.bd/Admission/Home.aspx",
+        "reference": "turn73search4"
+      },
+      {
+        "title": "BUFT - Admission",
+        "url": "https://admission.buft.edu.bd/",
+        "reference": "turn73search5"
+      },
+      {
+        "title": "BUFT - Select Program",
+        "url": "https://admission.buft.edu.bd/Admission/Candidate/SelectProgramV3.aspx?ecat=4",
+        "reference": "turn73search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-056",
+    "name": "North East University Bangladesh",
+    "domain": "www.neub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-057",
+    "name": "First Capital University of Bangladesh",
+    "domain": "www.fcub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Circular – First Capital University of Bangladesh",
+        "url": "https://fcub.edu.bd/admission-circular/",
+        "reference": "turn74search0"
+      },
+      {
+        "title": "Admission – First Capital University of Bangladesh",
+        "url": "https://businessadministration.fcub.edu.bd/admission/",
+        "reference": "turn74search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-058",
+    "name": "Ishakha International University, Bangladesh",
+    "domain": "www.ishakha.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Academic Calendar:",
+        "url": "https://www.ishakha.edu.bd/pdf/IIUB%20Tuition%20fees.pdf",
+        "reference": "turn74search9"
+      },
+      {
+        "title": "About IIUB – Ishakha International University Bangladesh",
+        "url": "https://www.ishakha.edu.bd/en/about-us/",
+        "reference": "turn74search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-060",
+    "name": "Exim Bank Agricultural University, Bangladesh",
+    "domain": "www.ebaub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-061",
+    "name": "North Western University",
+    "domain": "www.nwu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "NWU | Undergraduate Programs Tuition Fee",
+        "url": "https://www.nwu.ac.bd/undergraduate.php",
+        "reference": "turn74search2"
+      },
+      {
+        "title": "NWU | Admission Notice",
+        "url": "https://nwu.ac.bd/admission_notice.php",
+        "reference": "turn74search3"
+      },
+      {
+        "title": "NWU | Notice Details",
+        "url": "https://nwu.ac.bd/notice_details.php?id=4190",
+        "reference": "turn74search7"
+      },
+      {
+        "title": "NWU | All Notice",
+        "url": "https://nwu.ac.bd/view_all_notice.php",
+        "reference": "turn74search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-062",
+    "name": "Khwaja Yunus Ali University",
+    "domain": "www.kyau.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Khwaja Yunus Ali University - Bangladesh",
+        "url": "https://kyau.edu.bd/undergraduate",
+        "reference": "turn75search0"
+      },
+      {
+        "title": "Khwaja Yunus Ali University - Bangladesh",
+        "url": "https://www.kyau.edu.bd/academic/english/ba-in-english",
+        "reference": "turn75search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-063",
+    "name": "Sonargaon University",
+    "domain": "www.su.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Sonargaon University",
+        "url": "https://su.edu.bd/Admission/tution_fee",
+        "reference": "turn75search2"
+      },
+      {
+        "title": "Tuition & Fees | Sonargaon University",
+        "url": "https://su.edu.bd/tuition-fees",
+        "reference": "turn75search3"
+      },
+      {
+        "title": "Tuition Fees — Department of Journalism and Media Studies — Sonargaon University Journalism and Media Studies",
+        "url": "https://jms.su.edu.bd/admission/tuition-fees",
+        "reference": "turn75search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-064",
+    "name": "Feni University",
+    "domain": "www.feniuniversity.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "FENI-UNIVERSITY",
+        "url": "https://mail.feniuniversity.ac.bd/content/tuition-policy",
+        "reference": "turn75search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-065",
+    "name": "Britannia University",
+    "domain": "www.britannia.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fee - Britannia University",
+        "url": "https://britannia.edu.bd/index.php/admission-process/tuition-fee",
+        "reference": "turn75search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-066",
+    "name": "Port City International University",
+    "domain": "www.portcity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Bachelor’s Degree Programs - PCIU",
+        "url": "https://portcity.edu.bd/HomePage/DepatmentDetails/29/Portfolio/bachelor-s-degree-programs",
+        "reference": "turn76search0"
+      },
+      {
+        "title": "Admission Schedule - PCIU",
+        "url": "https://portcity.edu.bd/HomePage/SubPageDetailsPara/32/Page/admission-admission-schedule",
+        "reference": "turn76search1"
+      },
+      {
+        "title": "Payment Policy - PCIU",
+        "url": "https://www.portcity.edu.bd/HomePage/SubPageDetailsPara/59/Page/payment-policy",
+        "reference": "turn76search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-067",
+    "name": "Bangladesh University of Health Sciences",
+    "domain": "www.buhs.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BUHS | Bangladesh University of Health Sciences",
+        "url": "https://buhs.ac.bd/",
+        "reference": "turn76search3"
+      },
+      {
+        "title": "BUHS Admission Portal",
+        "url": "https://onlineapplication.buhs.ac.bd/admission/",
+        "reference": "turn76search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-068",
+    "name": "Chittagong Independent University",
+    "domain": "www.ciu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "CIU-TUITION FEES SLASS BA IN ENGLISH",
+        "url": "https://ciu.edu.bd/tuition-fees-slass-ba-english",
+        "reference": "turn76search7"
+      },
+      {
+        "title": "CIU-TUITION FEES CIUBS BBA",
+        "url": "https://ciu.edu.bd/index.php/tuition-fees-ciubs-bba",
+        "reference": "turn76search8"
+      },
+      {
+        "title": "CIU-TUITION FEES SSE ENGINEERING",
+        "url": "https://ciu.edu.bd/tuition-fees-sse-engineering",
+        "reference": "turn76search9"
+      },
+      {
+        "title": "CIU-TUITION FEES SOL",
+        "url": "https://ciu.edu.bd/index.php/tuition-fees-sol",
+        "reference": "turn76search10"
+      },
+      {
+        "title": "Admission Eligibility",
+        "url": "https://ciu.edu.bd/onlineAdmissionForm/admission-eligibility.php",
+        "reference": "turn76search11"
+      },
+      {
+        "title": "CIU-Home",
+        "url": "https://www.ciu.edu.bd/",
+        "reference": "turn76search12"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-069",
+    "name": "Notre Dame University Bangladesh",
+    "domain": "www.ndub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees - Notre Dame University Bangladesh",
+        "url": "https://ndub.edu.bd/admission-and-aid/tuition-fees/",
+        "reference": "turn76search5"
+      },
+      {
+        "title": "NDUB Application Portal",
+        "url": "https://www.admission.ndub.edu.bd/",
+        "reference": "turn76search6"
+      },
+      {
+        "title": "Undergraduate Admission - Notre Dame University Bangladesh",
+        "url": "https://ndub.edu.bd/admission-and-aid/undergraduate-admission/",
+        "reference": "turn76search13"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-070",
+    "name": "Times University, Bangladesh",
+    "domain": "www.timesuniversitybd.com",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "ADMISSION – Times University Bangladesh",
+        "url": "https://timesuniversitybd.com/admission/",
+        "reference": "turn77search2"
+      },
+      {
+        "title": "Times University Bangladesh – Only one Private University in Faridpur",
+        "url": "https://timesuniversitybd.com/",
+        "reference": "turn77search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-071",
+    "name": "North Bengal International University",
+    "domain": "www.nbiu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees - North Bengal International University",
+        "url": "https://www.nbiu.edu.bd/prospectivestudents/tuition-fees.html",
+        "reference": "turn77search1"
+      },
+      {
+        "title": "Online Apply for Admission - North Bengal International University | Govt. and UGC Approved",
+        "url": "https://www.nbiu.edu.bd/prospectivestudents/admission-form.html",
+        "reference": "turn77search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-072",
+    "name": "Fareast International University",
+    "domain": "www.fiu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees - FAREAST INTERNATIONAL UNIVERSITY (FIU)",
+        "url": "https://fiu.edu.bd/tuition-fees/",
+        "reference": "turn77search0"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-073",
+    "name": "Rajshahi Science & Technology University (RSTU), Natore",
+    "domain": "www.rstu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-074",
+    "name": "Brahmaputra International University",
+    "domain": "www.sfmu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-075",
+    "name": "Cox's Bazar International University",
+    "domain": "www.cbiu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees | Cox's Bazar International University",
+        "url": "https://www.cbiu.ac.bd/fees",
+        "reference": "turn78search4"
+      },
+      {
+        "title": "Admission Overview | Cox's Bazar International University",
+        "url": "https://www.cbiu.ac.bd/admission",
+        "reference": "turn78search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-076",
+    "name": "R. P. Shaha University",
+    "domain": "www.rpsu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition & Others Fees",
+        "url": "https://www.rpsu.edu.bd/data/frontImages/Fee_Structure_N1.pdf",
+        "reference": "turn78search7"
+      },
+      {
+        "title": "UNIVERSITY",
+        "url": "https://www.rpsu.edu.bd/images/Payment_procedure_for_final_admission001.pdf",
+        "reference": "turn78search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-077",
+    "name": "German University Bangladesh",
+    "domain": "www.gub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees & Waiver - German University Bangladesh",
+        "url": "https://gub.edu.bd/admission/tuition-fees-payment/",
+        "reference": "turn78search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-078",
+    "name": "Global University Bangladesh",
+    "domain": "www.globaluniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-079",
+    "name": "CCN University of Science & Technology",
+    "domain": "www.ccnust.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "HOME PAGE OF CCN UNIVERSITY",
+        "url": "https://ccnust.ac.bd/englishTutionFees-page",
+        "reference": "turn79search2"
+      },
+      {
+        "title": "CCN-UST Admission",
+        "url": "https://admission.ccnust.ac.bd/",
+        "reference": "turn79search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-080",
+    "name": "Bangladesh Army University of Science and Technology (BAUST), Saidpur",
+    "domain": "www.baust.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Semester Fees & Payments - BAUST",
+        "url": "https://baust.edu.bd/admission/tuition-fees/",
+        "reference": "turn79search0"
+      },
+      {
+        "title": "BAUST - Bangladesh Army University of Science and Technology",
+        "url": "https://baust.edu.bd/",
+        "reference": "turn79search4"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-081",
+    "name": "Bangladesh Army University of Engineering and Technology (BAUET), Qadirabad",
+    "domain": "www.bauet.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Information - Bangladesh Army University of Engineering & Technology",
+        "url": "https://bauet.ac.bd/admission/admission-information/",
+        "reference": "turn79search1"
+      },
+      {
+        "title": "Admission - Bangladesh Army University of Engineering & Technology",
+        "url": "https://bauet.ac.bd/admission/",
+        "reference": "turn79search5"
+      },
+      {
+        "title": "BAUET Admission System",
+        "url": "https://www.admission.bauet.ac.bd/",
+        "reference": "turn79search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-082",
+    "name": "Bangladesh Army International University of Science & Technology(BAIUST) ,Comilla",
+    "domain": "www.baiust.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "BAIUST Admission Portal",
+        "url": "https://www.admission.baiust.ac.bd/",
+        "reference": "turn80search0"
+      },
+      {
+        "title": "View",
+        "url": "https://admission.baiust.ac.bd/spotlight/admission-spring-2026",
+        "reference": "turn80search1"
+      },
+      {
+        "title": "Admission",
+        "url": "https://admission.baiust.ac.bd/admission-info/mba-emba-fee-structure",
+        "reference": "turn80search2"
+      },
+      {
+        "title": "Admission",
+        "url": "https://www.admission.baiust.ac.bd/admission-info/waiver-facilities",
+        "reference": "turn80search3"
+      },
+      {
+        "title": "ADMISSION NOTICE: Spring 2026 (Seat Plan) – BAIUST",
+        "url": "https://baiust.ac.bd/admission-notice-spring-2026-seat-plan/",
+        "reference": "turn80search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-083",
+    "name": "University of Scholars",
+    "domain": "www.ius.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "University of Scholars",
+        "url": "https://ius.edu.bd/public/tuition-fees",
+        "reference": "turn80search4"
+      },
+      {
+        "title": "University of Scholars",
+        "url": "https://www.ius.edu.bd/admission",
+        "reference": "turn80search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-084",
+    "name": "Canadian University of Bangladesh",
+    "domain": "www.cub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Fees Structure - Fall 2026 | Canadian University of Bangladesh",
+        "url": "https://www.cub.edu.bd/fees_structure.php",
+        "reference": "turn80search6"
+      },
+      {
+        "title": "Fees Structure - Fall 2026 | Canadian University of Bangladesh",
+        "url": "https://cub.edu.bd/fees_structure.php",
+        "reference": "turn80search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-085",
+    "name": "N.P.I University of Bangladesh",
+    "domain": "www.npiub.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "FAQs - NPIUB, North Pacific International University of Bangladesh",
+        "url": "https://www.npiub.edu.bd/faqs",
+        "reference": "turn80search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-086",
+    "name": "Northern University of Business & Technology, Khulna",
+    "domain": "www.nubtkhulna.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Northern University of Business and Technology | Khulna",
+        "url": "https://nubtkhulna.ac.bd/",
+        "reference": "turn81search0"
+      },
+      {
+        "title": "Northern University of Business and Technology | Khulna",
+        "url": "https://nubtkhulna.ac.bd/sp/QjTq19/Admission-Information",
+        "reference": "turn81search1"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-088",
+    "name": "University of Creative Technology, Chittagong",
+    "domain": "www.uctc.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition and Others Fees | University of Creative Technology Chittagong",
+        "url": "https://www.uctc.edu.bd/academic/tuition-fees",
+        "reference": "turn81search3"
+      },
+      {
+        "title": "Admission Requirements and Fee Structure",
+        "url": "https://www.uctc.edu.bd/assets/admission/UCTC-Fee-Structure.pdf",
+        "reference": "turn81search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-089",
+    "name": "Central University of Science and Technology",
+    "domain": "www.cust.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "সেন্ট্রাল ইউনিভার্সিটি অব সায়েন্স অ্যান্ড টেকনোলজি-তে ইউজিসি কর্তৃক আরোপিত নতুন শিক্ষার্থী ভর্তির নিষেধাজ্ঞা প্রত্যাহার ও কমিশনের ওয়েবসাইট থেকে লাল তারকা চিহ্ন প্রত্যাহার প্রসঙ্গে। - Central University of Science & Technology",
+        "url": "https://cust.edu.bd/ugc-lifts-admission-restriction-on-cust-and-removes-red-status-mark-from-official-website/",
+        "reference": "turn81search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-090",
+    "name": "Tagore University of Creative Arts, Uttara, Dhaka, Bangladesh",
+    "domain": "www.tuca.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission & Tuition Fees - TUCA",
+        "url": "https://tuca.edu.bd/admission-tuition-fees/",
+        "reference": "turn81search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-091",
+    "name": "University of Global Village",
+    "domain": "www.ugv.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Home - University of Global Village",
+        "url": "https://ugv.edu.bd/",
+        "reference": "turn82search0"
+      },
+      {
+        "title": "Fees Structure - University Of GLobal Village",
+        "url": "https://ugv.edu.bd/fees-structure",
+        "reference": "turn82search1"
+      },
+      {
+        "title": "Admission Information - University Of GLobal Village",
+        "url": "https://ugv.edu.bd/admission/show",
+        "reference": "turn82search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-093",
+    "name": "Anwer Khan Modern University",
+    "domain": "www.akmu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees & Payment - Anwer Khan Modern UniversityAnwer Khan Modern University",
+        "url": "https://akmu.edu.bd/admission/tuition-fees-payment-information-anwer-khan-modern-university-akmu/",
+        "reference": "turn82search3"
+      },
+      {
+        "title": "Admission - Anwer Khan Modern UniversityAnwer Khan Modern University",
+        "url": "https://akmu.edu.bd/admission/",
+        "reference": "turn82search4"
+      },
+      {
+        "title": "Department of Computer Science and Engineering - Anwer Khan Modern UniversityDepartment of Computer Science and Engineering | Anwer Khan Modern University",
+        "url": "https://akmu.edu.bd/cse/",
+        "reference": "turn82search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-094",
+    "name": "ZNRF University of Management Sciences",
+    "domain": "www.zums.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admissions | ZUMS",
+        "url": "https://zums.edu.bd/admission",
+        "reference": "turn82search6"
+      },
+      {
+        "title": "ZNRF University of Management Sciences (ZUMS) - Future Leaders",
+        "url": "https://zums.edu.bd/",
+        "reference": "turn82search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-095",
+    "name": "Ahsania Mission University of Science and Technology",
+    "domain": "www.amust.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-096",
+    "name": "Khulna Khan Bahadur Ahsanullah University",
+    "domain": "www.kkbau.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-097",
+    "name": "Bandarban University",
+    "domain": "www.bubban.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Fees | Bandarban University",
+        "url": "https://bubban.ac.bd/fees",
+        "reference": "turn83search2"
+      },
+      {
+        "title": "Bandarban University",
+        "url": "https://bubban.ac.bd/",
+        "reference": "turn83search5"
+      },
+      {
+        "title": "সেমিস্টার ফি জমাদান সংক্রান্ত বিজ্ঞপ্তি | Bandarban University",
+        "url": "https://www.bubban.ac.bd/notice/49",
+        "reference": "turn83search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-099",
+    "name": "Trust University, Barishal",
+    "domain": "www.trustuniversity.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Trust University, Barishal",
+        "url": "https://trustuniversity.edu.bd/tuition-fees",
+        "reference": "turn83search0"
+      },
+      {
+        "title": "Trust University, Barishal",
+        "url": "https://trustuniversity.edu.bd/",
+        "reference": "turn83search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-100",
+    "name": "International Standard University",
+    "domain": "www.isu.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "International Standard University",
+        "url": "https://admission.isu.ac.bd/public/tuition-fees",
+        "reference": "turn83search1"
+      },
+      {
+        "title": "International Standard University",
+        "url": "https://isu.ac.bd/notice/all-notice",
+        "reference": "turn83search4"
+      },
+      {
+        "title": "International Standard University",
+        "url": "https://www.isu.ac.bd/",
+        "reference": "turn83search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-101",
+    "name": "University of Brahmanbaria",
+    "domain": "www.uob.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees & Payments | University of Brahmanbaria",
+        "url": "https://uob.edu.bd/admission/tuition-fees/",
+        "reference": "turn84search0"
+      },
+      {
+        "title": "University of Brahmanbaria | UGC and Government Approved",
+        "url": "https://uob.edu.bd/",
+        "reference": "turn84search1"
+      },
+      {
+        "title": "Admission | University of Brahmanbaria",
+        "url": "https://uob.edu.bd/admission/",
+        "reference": "turn84search2"
+      },
+      {
+        "title": "Admission Archives | University of Brahmanbaria",
+        "url": "https://uob.edu.bd/category/admission/",
+        "reference": "turn84search10"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-102",
+    "name": "University of Skill Enrichment and Technology",
+    "domain": "www.uset.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-104",
+    "name": "R.T.M Al-Kabir Technical University",
+    "domain": "www.rtm-aktu.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "RTM_AKTU",
+        "url": "https://www.rtm-aktu.edu.bd/7023/",
+        "reference": "turn84search6"
+      },
+      {
+        "title": "RTM_AKTU",
+        "url": "https://www.rtm-aktu.edu.bd/3208/",
+        "reference": "turn84search7"
+      },
+      {
+        "title": "RTM_AKTU",
+        "url": "https://www.rtm-aktu.edu.bd/4004/",
+        "reference": "turn84search8"
+      },
+      {
+        "title": "RTM_AKTU",
+        "url": "https://www.rtm-aktu.edu.bd/index/",
+        "reference": "turn84search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-105",
+    "name": "Dr. Momtaz Begum University of Science and Technology (MUST)",
+    "domain": "www.must.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission - Dr. Momtaz Begum University of Science and Technology",
+        "url": "https://must.ac.bd/admission/",
+        "reference": "turn84search3"
+      },
+      {
+        "title": "Local Students Tuition Fees - Dr. Momtaz Begum University of Science and Technology",
+        "url": "https://must.ac.bd/admission/local-students-tuition-fees/",
+        "reference": "turn84search4"
+      },
+      {
+        "title": "International Students Tuition Fees - Dr. Momtaz Begum University of Science and Technology",
+        "url": "https://must.ac.bd/admission/international-students-tuition-fees/",
+        "reference": "turn84search5"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-106",
+    "name": "Chattogram BGMEA University of Fashion and Technology",
+    "domain": "www.cbuft.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Chattogram BGMEA University of Fashion & Technology",
+        "url": "https://cbuft.edu.bd/pages/index.php?menu=admission_eligibility",
+        "reference": "turn85search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-107",
+    "name": "Bangladesh Army University of Science and Technology, Khulna",
+    "domain": "www.baustkhulna.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "January 2027 Admission Notice - Bangladesh Army University of Science and Technology KhulnaBangladesh Army University of Science and Technology Khulna",
+        "url": "https://baustkhulna.ac.bd/january-2027-admission-notice/",
+        "reference": "turn85search0"
+      },
+      {
+        "title": "Tuition Fees - Bangladesh Army University of Science and Technology KhulnaBangladesh Army University of Science and Technology Khulna",
+        "url": "https://baustkhulna.ac.bd/admission/tuition-fees/",
+        "reference": "turn85search1"
+      },
+      {
+        "title": "Bangladesh Army University of Science and Technology Khulna - BAUST KhulnaBangladesh Army University of Science and Technology Khulna | BAUST Khulna",
+        "url": "https://baustkhulna.ac.bd/",
+        "reference": "turn85search4"
+      },
+      {
+        "title": "BANGLADESH ARMY UNIVERSITY OF SCIENCE & TECHNOLOGY KHULNA",
+        "url": "https://baustkhulna.ac.bd/wp-content/uploads/2025/05/Admission-Notice-July-2025-1.pdf",
+        "reference": "turn85search8"
+      },
+      {
+        "title": "BAUST K F-Admission-9.01.A",
+        "url": "https://baustkhulna.ac.bd/wp-content/uploads/2026/01/admission-circular.pdf",
+        "reference": "turn85search9"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-108",
+    "name": "Teesta University, Rangpur",
+    "domain": "www.teestauniversity.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Teesta University",
+        "url": "https://teestauniversity.ac.bd/assets/Tuition%20Fee%20Structure%20-%20TU.pdf",
+        "reference": "turn85search7"
+      },
+      {
+        "title": "Teesta University | Excellence in Education",
+        "url": "https://teestauniversity.ac.bd/",
+        "reference": "turn85search5"
+      },
+      {
+        "title": "Admission | Teesta University",
+        "url": "https://teestauniversity.ac.bd/admission/",
+        "reference": "turn85search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-109",
+    "name": "International Islami University of Science and Technology Bangladesh (IIUSTB)",
+    "domain": "www.iiustb.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees | IIUSTB",
+        "url": "https://www.iiustb.ac.bd/public/page/tuition-fees",
+        "reference": "turn85search2"
+      }
+    ]
+  },
+  {
+    "id": "ugc-private-110",
+    "name": "Lalon University of Science and Arts",
+    "domain": "lusa.ac.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Tuition Fees & Payments - Lalon University of Science & Arts, Kushtia",
+        "url": "https://lusa.ac.bd/admission/tuition-fees-payments/",
+        "reference": "turn86search0"
+      },
+      {
+        "title": "Home - Lalon University of Science & Arts, Kushtia",
+        "url": "https://lusa.ac.bd/",
+        "reference": "turn86search1"
+      },
+      {
+        "title": "Top Scroll Notice Archives - Lalon University of Science & Arts, Kushtia",
+        "url": "https://lusa.ac.bd/category/top-scroll-notice/",
+        "reference": "turn86search2"
+      },
+      {
+        "title": "Admission Requirements - Lalon University of Science & Arts, Kushtia",
+        "url": "https://lusa.ac.bd/admission/admission-requirements/",
+        "reference": "turn86search3"
+      }
+    ]
+  },
+  {
+    "id": "ugc-international-001",
+    "name": "Islamic University of Technology (IUT), Gazipur",
+    "domain": "www.iutoic-dhaka.edu",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Portal",
+        "url": "https://admission.iutoic-dhaka.edu/",
+        "reference": "turn86search4"
+      },
+      {
+        "title": "FEES & PAYMENT SCHEDULE (All figures are in USD)",
+        "url": "https://admission.iutoic-dhaka.edu/admission/2026%20ADMISSION%20ANNOUCEMENT%20FINAL-20012026.pdf",
+        "reference": "turn86search9"
+      },
+      {
+        "title": "Payment and Fees (Host Country)",
+        "url": "https://admission.iutoic-dhaka.edu/information/payment-fees",
+        "reference": "turn86search5"
+      },
+      {
+        "title": "Fees, Payment Schedule and Payment Method",
+        "url": "https://admission.iutoic-dhaka.edu/international-students/payment-fees",
+        "reference": "turn86search6"
+      }
+    ]
+  },
+  {
+    "id": "ugc-international-002",
+    "name": "Asian University for Women",
+    "domain": "www.auw.edu.bd",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "Admission Portal - Log In",
+        "url": "https://apps.auw.edu.bd/erp/auw/r/112/login",
+        "reference": "turn86search7"
+      },
+      {
+        "title": "About Admission",
+        "url": "https://labschool.auw.edu.bd/admission",
+        "reference": "turn86search8"
+      }
+    ]
+  },
+  {
+    "id": "ugc-international-003",
+    "name": "South Asian University",
+    "domain": "www.southasianuniversity.org",
+    "checked_at": "2026-11-06",
+    "status": "no_matching_result_in_search",
+    "sources": []
+  },
+  {
+    "id": "ugc-cbhe-001",
+    "name": "UCSI University, Malaysia ( Bangladesh Campus)",
+    "domain": "www.bangladesh.ucsiuniversity.edu.my",
+    "checked_at": "2026-11-06",
+    "status": "source_candidates_require_content_review",
+    "sources": [
+      {
+        "title": "UCSI University | Ranked top 1% globally",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/",
+        "reference": "turn87search0"
+      },
+      {
+        "title": "Programmes | Bangladesh Campus",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/programmes/bangladesh",
+        "reference": "turn87search1"
+      },
+      {
+        "title": "Tuition Fees",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/Tuition-Fees",
+        "reference": "turn87search2"
+      },
+      {
+        "title": "Intakes and Calendar",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/intakes-and-calendar",
+        "reference": "turn87search3"
+      },
+      {
+        "title": "Course Breakdown Flyer 2025",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/sites/default/files/course_breakdown_flyer_2025.pdf",
+        "reference": "turn87search8"
+      },
+      {
+        "title": "Admission Procedure",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/admission/bangladeshi-students/admission-procedure",
+        "reference": "turn87search5"
+      },
+      {
+        "title": "FAQ",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/f-a-q",
+        "reference": "turn87search6"
+      },
+      {
+        "title": "Fee Structure for Fast Track Masters Programme:",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/sites/default/files/students_handbook_2025_new.pdf",
+        "reference": "turn87search9"
+      },
+      {
+        "title": "Course Breakdown Flyer",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/sites/default/files/course_breakdown_flyer_new.pdf",
+        "reference": "turn87search10"
+      },
+      {
+        "title": "About The Branch Campus",
+        "url": "https://www.bangladesh.ucsiuniversity.edu.my/bangladesh/about-the-campus",
+        "reference": "turn87search7"
+      }
+    ]
+  },
+  {
+    "id": "ugc-public-048",
+    "name": "Kishoreganj University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-054",
+    "name": "Naogaon University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-055",
+    "name": "Meherpur University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-058",
+    "name": "Thakurgaon University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-059",
+    "name": "Lakshmipur Science & Technology University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-060",
+    "name": "Narayanganj Science and Technology University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-public-061",
+    "name": "শরিয়তপুর কৃষি বিশ্ববিদ্যালয়",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-043",
+    "name": "Presidency University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-052",
+    "name": "European University of Bangladesh",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-059",
+    "name": "Z.H Sikder University of Science & Technology",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-087",
+    "name": "Rabindra Maitree University, Kushtia",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-092",
+    "name": "Rupayan A.K.M Shamsuzzoha University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-098",
+    "name": "Shah Makhdum Management University, Rajshahi",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-103",
+    "name": "Microland University of Science and Technology",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-111",
+    "name": "Justice Abu Zafar Siddiquie Science and Technology University, Kustia",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-112",
+    "name": "Grameen University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-113",
+    "name": "IBAIS University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-114",
+    "name": "The University of Comilla",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-115",
+    "name": "Queens University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  },
+  {
+    "id": "ugc-private-116",
+    "name": "America Bangladesh University",
+    "domain": null,
+    "checked_at": "2026-11-06",
+    "status": "no_usable_website_in_ugc_snapshot",
+    "sources": []
+  }
+]

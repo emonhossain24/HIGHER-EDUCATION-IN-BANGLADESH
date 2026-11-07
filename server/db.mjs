@@ -61,7 +61,7 @@ export function seed(db){
     }
     for(const [id,kind,data] of [['site','settings',{...defaults,title:defaults.title}],['nav','navigation',defaultNav],...JSON.parse(readFileSync(resolve(root,'data/source-registry.json'),'utf8')).map(s=>[s.id,'source',s])])run(db,'INSERT OR IGNORE INTO record(id,kind,data,published,status,updated_at) VALUES(?,?,?,?,?,?)',id,kind,JSON.stringify(data),JSON.stringify(data),'published',now());
     for(const source of JSON.parse(readFileSync(resolve(root,'data/source-registry.json'),'utf8'))){const previous=one(db,'SELECT * FROM record WHERE id=?',source.id);if(previous&&previous.version===1&&source.checked_at&&!JSON.parse(previous.data).checked_at)run(db,'UPDATE record SET data=?,published=? WHERE id=?',JSON.stringify(source),JSON.stringify(source),source.id);}
-    for(const item of JSON.parse(readFileSync(resolve(root,'data/seeds/reviewed-catalogue.json'),'utf8')))run(db,'INSERT OR IGNORE INTO record(id,kind,institution_id,data,published,status,updated_at) VALUES(?,?,?,?,?,?,?)',item.id,item.kind,item.institution_id,JSON.stringify(item.data),JSON.stringify(item.data),'published',now());
+    for(const item of ['reviewed-catalogue.json','current-catalogue.json'].flatMap(file=>JSON.parse(readFileSync(resolve(root,'data/seeds',file),'utf8'))))run(db,'INSERT OR IGNORE INTO record(id,kind,institution_id,data,published,status,updated_at) VALUES(?,?,?,?,?,?,?)',item.id,item.kind,item.institution_id,JSON.stringify(item.data),JSON.stringify(item.data),'published',now());
     run(db,'INSERT OR IGNORE INTO meta VALUES(?,?)','schema_version','1');
   });
 }

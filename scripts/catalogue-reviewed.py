@@ -3,6 +3,9 @@ root=pathlib.Path(__file__).resolve().parents[1]
 records=[]
 def add(id,kind,inst,data):
  data.update(checked_at='2026-11-06',verification='verified',provenance='Official source checked on 2026-11-06; a field may still be explicitly unknown. No admission or award guarantee.')
+ if kind=='fee':
+  data['expires_at']='2027-02-04T00:00:00+06:00'
+  data['review_policy']='Platform review due after 90 days; this is not an institution-declared fee expiry.'
  records.append(dict(id=id,kind=kind,institution_id=inst,data=data))
 ulab='ugc-private-047';brac='ugc-private-016'
 u='https://admissions.ulab.edu.bd/undergraduate-programs/tuition-fees';b='https://www.bracu.ac.bd/admissions/tuition-and-fees'

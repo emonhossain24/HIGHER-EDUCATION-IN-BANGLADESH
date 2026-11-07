@@ -30,7 +30,7 @@ Rollback restores an earlier revision as a draft. It must be republished to chan
 
 ## Media
 
-PNG, JPEG and WebP are accepted after signature checks, with a 5 MB limit. PDF uploads require `CLAMSCAN_PATH` and a successful malware scan; otherwise use official document links. SVG uploads are rejected; the shipped flag is a controlled repository asset. Rights and alternative text are required. Further image decoding/reencoding and production malware scanning of all uploads are outstanding hardening tasks.
+PNG, JPEG and WebP are accepted after signature checks, with a 5 MB limit. PDF uploads require `CLAMSCAN_PATH` and a successful malware scan; otherwise use official document links. SVG uploads are rejected; the shipped flag is a controlled repository asset. Rights and alternative text are required. Accepted images are decoded, stripped, resized and reencoded with resource limits. Keep production malware scanner definitions current.
 
 ## Release checks
 
@@ -47,3 +47,13 @@ Approved publication jobs are checked every 30 seconds by the single application
 ## System image dependency
 
 Image uploads now require ImageMagick (`IMAGE_CONVERT_PATH`, default `magick`). The Dockerfile includes ImageMagick and ClamAV binaries. Configure and keep ClamAV definitions current before enabling PDF uploads. Every accepted image is decoded, stripped, bounded to 2400×2400 and reencoded with resource/time limits. Source document linking remains available when scanning cannot complete.
+
+## Browser QA and production smoke checks
+
+The normal server returns 404 for every `/__qa` path. `tests/browser-fixture.mjs` is a separate loopback-only service using a disposable database and synthetic member/staff sessions. It refuses to start unless `HEBD_BROWSER_QA=1`, and always refuses production. For managed preview QA only, the ignored local marker `var/browser-qa.enabled` selects this fixture through `npm run dev`. Remove the marker when finished; it is absent from the release. No real credentials or production user data are involved. Fixture checks verify post-login actions; they do not certify real inbox delivery or a production login.
+
+`npm run check:i18n` checks extracted interface strings, accessibility labels and static server messages. It preserves option values while translating their visible labels. This bounded audit does not independently certify every dynamic content translation.
+
+After configuring the actual HTTPS host, run `npm run verify:live -- https://your-production-origin`. This read-only command checks HEBD database health, bootstrap, directory, admissions, calendar and production security headers. It reports missing mail configuration as a failure. It does not send mail or treat provider configuration as proof of inbox delivery. Complete signup, verification, login, logout and password recovery with a designated test inbox on that host, and verify received messages and single-use link behavior before launch.
+
+Fee `expires_at` values are platform editorial review deadlines (90 days after this source check), not institution-declared validity dates. Effective intake/cohort remains a separate source fact. Expired schedules lose verified status and cannot yield a verified-source estimate.

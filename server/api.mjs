@@ -1,7 +1,7 @@
 import {randomUUID} from 'node:crypto';
 import {validateRelations,relationsApi} from './relations.mjs';
 import {extensions,rebuildSearch,enqueueAlerts} from './extensions.mjs';
-import {writeFileSync,mkdirSync,appendFileSync,unlinkSync,existsSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,appendFileSync,unlinkSync,existsSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {all,one,run,transaction,audit,revision,notify,defaults,defaultNav} from './db.mjs';
@@ -36,6 +36,8 @@ export async function api(ctx){
   const relation=await relationsApi(ctx);if(relation!==undefined)return relation;
   const extension=await extensions(ctx);if(extension!==undefined)return extension;
   const ip=req.socket.remoteAddress||'unknown';rateLimit(db,`api:${ip}`,400,60000);
+  if(p==='/api/health'&&method==='GET')return {ok:one(db,'SELECT 1 ok').ok===1,service:'hebd',mail_configured:!!(ctx.config.mailUrl||ctx.config.sendMail),development_mail:!!ctx.config.devMail};
+  if(p==='/api/source-discovery'&&method==='GET'){const items=JSON.parse(readFileSync(new URL('../data/official-source-discovery.json',import.meta.url),'utf8'));return {items:items.filter(i=>!url.searchParams.get('institution_id')||i.id===url.searchParams.get('institution_id')),disclosure:'Source discovery is not current-content verification. Consult effective sessions and source notices.'};}
   if(p==='/api/health')return {ok:true,database:one(db,'PRAGMA quick_check').quick_check==='ok'};
   if(p==='/api/session'&&method==='GET')return {user:publicUser(ctx.session),csrf:ctx.session?.csrf,mail_ready:!!(ctx.config.mailUrl||ctx.config.devMail||ctx.config.sendMail)};
   if(p==='/api/bootstrap')return {settings:setting(db),navigation:published(db,'navigation').find(r=>r.id==='nav')||defaultNav,counts:all(db,'SELECT category,count(*) count FROM institution WHERE category IS NOT NULL AND deleted_at IS NULL GROUP BY category'),specialists:one(db,'SELECT count(*) count FROM institution WHERE category IS NULL AND deleted_at IS NULL').count,snapshot_date:'2026-11-06',sources:published(db,'source')};

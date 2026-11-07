@@ -8,7 +8,7 @@
     "node": ">=24.0.0"
   },
   "scripts": {
-    "dev": "node --watch server/index.mjs",
+    "dev": "node scripts/dev.mjs",
     "start": "node server/index.mjs",
     "test": "node --test --test-concurrency=1 tests/*.test.mjs",
     "check": "node scripts/check.mjs",
@@ -16,6 +16,8 @@
     "staff": "node scripts/staff.mjs",
     "backup": "node scripts/backup.mjs",
     "jobs": "node scripts/jobs.mjs",
-    "sources:check": "node scripts/source-monitor.mjs"
+    "sources:check": "node scripts/source-monitor.mjs",
+    "check:i18n": "node scripts/audit-i18n.mjs",
+    "verify:live": "node scripts/verify-live.mjs"
   }
 }

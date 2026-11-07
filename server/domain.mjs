@@ -23,7 +23,7 @@ export function admissionStatus(data,date=new Date()){
   return time<start?'upcoming':time>=end?'closed':data.extended?'extended':'open';
 }
 export function calculateFee(fee,waiver=0){
-  if(fee.basis==='published_total'&&fee.verification==='verified'&&['published_total','credits','per_credit'].every(k=>typeof fee[k]==='number'&&fee[k]>=0)){assert(Number.isFinite(waiver)&&waiver>=0&&waiver<=100,'Waiver must be between 0 and 100.');const allowed=Math.min(waiver,fee.waiver_cap??0),discount=fee.credits*fee.per_credit*allowed/100;return {status:'estimated',gross:fee.published_total,tuition:fee.credits*fee.per_credit,waiver:discount,net:Math.max(0,fee.published_total-discount),waiver_percent:allowed,currency:'BDT',basis:'Published source total minus tuition-only scenario waiver',excludes:fee.excludes};}
+  if(fee.basis==='published_total'&&fee.verification==='verified'&&['published_total','credits','per_credit'].every(k=>typeof fee[k]==='number'&&fee[k]>=0)){assert(Number.isFinite(waiver)&&waiver>=0&&waiver<=100,'Waiver must be between 0 and 100.');const allowed=Math.min(waiver,fee.waiver_cap??0),discount=(fee.published_tuition??fee.credits*fee.per_credit)*allowed/100;return {status:'estimated',gross:fee.published_total,tuition:fee.published_tuition??fee.credits*fee.per_credit,waiver:discount,net:Math.max(0,fee.published_total-discount),waiver_percent:allowed,currency:'BDT',basis:'Published source total minus tuition-only scenario waiver',excludes:fee.excludes};}
   const fields=['credits','per_credit','terms','per_term','one_time','other_required'];
   if(fields.some(k=>typeof fee[k]!=='number'||!Number.isFinite(fee[k])||fee[k]<0)||fee.verification!=='verified')return {status:'not_verified',message:'Unable to calculate reliably. Required inputs are not verified.'};
   assert(Number.isFinite(waiver)&&waiver>=0&&waiver<=100,'Waiver must be between 0 and 100.');
@@ -43,7 +43,7 @@ export function validateRecord(kind,d,publish=false){
   assert(JSON.stringify(d).length<=100000,'Content is too large.');
   for(const [key,value] of Object.entries(d)){
     if((key.endsWith('_url')||key==='url')&&value)safeUrl(value,{local:['logo_url','favicon_url','image_url'].includes(key)});
-    if(['credits','per_credit','terms','per_term','one_time','other_required','seats','duration_months','waiver_cap','rank_exact','rank_band_from','rank_band_to'].includes(key)&&value!==null&&value!==undefined)assert(typeof value==='number'&&Number.isFinite(value)&&value>=0,`${key} must be a nonnegative number.`);
+    if(['credits','per_credit','terms','per_term','one_time','other_required','seats','duration_months','waiver_cap','rank_exact','rank_band_from','rank_band_to','published_total','published_tuition','lab_and_activities_total'].includes(key)&&value!==null&&value!==undefined)assert(typeof value==='number'&&Number.isFinite(value)&&value>=0,`${key} must be a nonnegative number.`);
   }
   if(d.checked_at)assert(Number.isFinite(Date.parse(d.checked_at)),'Checked date must be valid.');
   if(d.verification)assert(['not_verified','verified','conflicting','expired','not_applicable'].includes(d.verification),'Invalid verification state.');
@@ -54,11 +54,13 @@ export function validateRecord(kind,d,publish=false){
     if(publish)assert(d.publisher&&d.product&&Number.isInteger(d.edition)&&d.scope&&d.source_url&&d.license_note,'Ranking needs publisher, product, edition, scope, source and a reuse-rights note.');
   }
   if(kind==='admission'){
-    if(d.opens_at||d.closes_at){assert(/[Zz]$|[+-]\d\d:\d\d$/.test(d.opens_at||'')&&/[Zz]$|[+-]\d\d:\d\d$/.test(d.closes_at||''),'Admission timestamps require an explicit time zone.');assert(Date.parse(d.closes_at)>Date.parse(d.opens_at),'Closing time must follow opening time.');}
+    if(d.opens_at||d.closes_at){for(const value of [d.opens_at,d.closes_at].filter(Boolean))assert((/[Zz]$|[+-]\d\d:\d\d$/.test(value))&&Number.isFinite(Date.parse(value)),'Admission timestamps require a valid explicit time zone.');if(d.opens_at&&d.closes_at)assert(Date.parse(d.closes_at)>Date.parse(d.opens_at),'Closing time must follow opening time.');}
     if(publish)assert(d.session&&d.source_url,'Admission requires an effective session and source.');
     if(d.rules)for(const r of d.rules)assert(['gte','lte','eq','in'].includes(r.op)&&typeof r.field==='string'&&r.source_url,'Eligibility rules require a supported operator, field and source.');
   }
   if(kind==='seat'&&publish)assert(d.session&&d.programme_id&&d.quota&&Number.isInteger(d.seats),'Seats require session, programme, category and integer capacity.');
+  if(kind==='fee'&&d.published_tuition!==undefined&&d.published_total!==undefined)assert(d.published_tuition<=d.published_total,'Tuition cannot exceed the published total.');
+  if(d.expires_at)assert(Number.isFinite(Date.parse(d.expires_at)),'Review expiry must be valid.');
   if(kind==='fee'&&publish)assert(d.programme_id&&d.effective_session&&d.expires_at,'Fees require programme, effective session and expiry date.');
   if(kind==='scholarship'&&publish)assert(d.benefit&&d.criteria&&d.renewal,'Scholarships require benefit, criteria and renewal terms.');
   if(kind==='settings'){
